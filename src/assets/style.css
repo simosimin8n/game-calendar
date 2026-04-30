@@ -271,10 +271,12 @@ main { flex: 1; }
   gap: 12px;
   align-items: start;
 }
-.hero-link { grid-column: span 2; }
-/* prevent medium cards from stretching to hero row height */
-.month-grid > a { height: auto; }
-.month-grid .card { height: auto; }
+/* hero spans 2 cols × 2 rows — magazine layout */
+.hero-link { grid-column: span 2; grid-row: span 2; height: 100%; }
+.hero-card { height: 100%; }
+/* medium cards don't stretch */
+.month-grid > a:not(.hero-link) { height: auto; }
+.month-grid .medium-card { height: auto; }
 
 /* ── CARDS ───────────────────────────────────── */
 .card-link {
@@ -299,7 +301,7 @@ main { flex: 1; }
   border-color: var(--border-strong);
   box-shadow: 0 16px 40px -12px rgba(0,0,0,0.75);
 }
-.hero-card .cover { height: 220px; }
+.hero-card .cover { flex: 1; min-height: 200px; height: auto; }
 .medium-card .cover { height: 140px; }
 
 /* ── COVER ───────────────────────────────────── */
@@ -703,6 +705,23 @@ main { flex: 1; }
 .gd-lang-check { text-align: center !important; color: var(--accent-light); }
 .gd-lang-table tr:last-child td { border-bottom: none; }
 
+/* ── TRAILER ─────────────────────────────────── */
+.gd-trailer-wrap {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 */
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #000;
+  margin-top: 0.25rem;
+}
+.gd-trailer-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 /* ── ABOUT ───────────────────────────────────── */
 .page { max-width: 680px; margin: 1rem auto; }
 .page h1 { font-size: 1.9rem; font-weight: 800; margin-bottom: 1rem; letter-spacing: -0.03em; }
@@ -724,8 +743,9 @@ main { flex: 1; }
   .hot-grid { grid-template-columns: repeat(2, 1fr); }
   .month-grid { grid-template-columns: repeat(2, 1fr); }
   /* hero: full width, single row on tablet */
-  .hero-card { grid-column: 1 / -1; }
-  .hero-card .cover { height: 200px; }
+  .hero-link { grid-column: 1 / -1; grid-row: span 1; height: auto; }
+  .hero-card { height: auto; }
+  .hero-card .cover { flex: none; height: 200px; }
 }
 
 @media (max-width: 640px) {
@@ -738,8 +758,8 @@ main { flex: 1; }
 @media (max-width: 560px) {
   .hot-grid { grid-template-columns: 1fr; }
   .month-grid { grid-template-columns: 1fr; grid-auto-rows: auto; }
-  .hero-card { grid-column: 1; grid-row: auto; }
-  .hero-card .cover { min-height: 180px; }
+  .hero-link { grid-column: 1; grid-row: auto; height: auto; }
+  .hero-card .cover { flex: none; min-height: 180px; }
   .medium-card .cover { height: 110px; }
   .cover-hot { height: 160px; }
   .content { padding: 1.5rem 1rem 3rem; }

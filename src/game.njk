@@ -52,6 +52,21 @@ eleventyComputed:
       </section>
       {% endif %}
 
+      {% if game.youtubeId %}
+      <section class="gd-section">
+        <h2 class="gd-section-title">Trailer</h2>
+        <div class="gd-trailer-wrap">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/{{ game.youtubeId }}?rel=0&modestbranding=1"
+            title="{{ game.title }} — Official Trailer"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy">
+          </iframe>
+        </div>
+      </section>
+      {% endif %}
+
       {# Key metadata inline #}
       <section class="gd-section">
         <h2 class="gd-section-title">Details</h2>
