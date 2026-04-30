@@ -269,8 +269,12 @@ main { flex: 1; }
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 12px;
+  align-items: start;
 }
 .hero-card { grid-column: span 2; }
+/* prevent medium cards from stretching to hero row height */
+.month-grid > a { height: auto; }
+.month-grid .card { height: auto; }
 
 /* ── CARDS ───────────────────────────────────── */
 .card-link {

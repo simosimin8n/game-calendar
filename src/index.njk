@@ -177,13 +177,18 @@ title: Upcoming Game Releases
       const searchOk = !searchTerm || title.includes(searchTerm);
 
       const visible = platformOk && genreOk && searchOk;
-      card.closest('a').style.display = visible ? '' : 'none';
+      card.closest('a').style.display = visible ? 'block' : 'none';
       if (visible) visibleCount++;
     });
 
     monthSections.forEach(section => {
-      const visible = section.querySelectorAll('a:not([style*="display: none"]) .card');
-      section.style.display = visible.length > 0 ? '' : 'none';
+      const visibleCards = section.querySelectorAll('a:not([style*="display: none"]) .card');
+      section.style.display = visibleCards.length > 0 ? '' : 'none';
+    });
+
+    document.querySelectorAll('.hot-month-block').forEach(block => {
+      const hasVisible = [...block.querySelectorAll('a')].some(a => a.style.display !== 'none');
+      block.style.display = hasVisible ? '' : 'none';
     });
 
     emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
