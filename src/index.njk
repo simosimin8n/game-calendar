@@ -113,12 +113,22 @@ title: Upcoming Game Releases
             </div>
             <div class="card-body">
               <h3>{{ hero.title }}</h3>
-              <p class="meta">{{ hero.releaseDate | dateFormat }} · {{ hero.price }}</p>
+              <p class="meta">{{ hero.releaseDate | dateFormat }}</p>
               <p class="genres">{{ hero.genres | join(' · ') }}</p>
-              <div class="badges">
-                {% for p in hero.platforms %}
-                  <span class="badge badge-{{ p | lower }}">{{ p }}</span>
-                {% endfor %}
+              <div class="card-footer">
+                <div class="badges">
+                  {% for p in hero.platforms %}
+                    <span class="badge badge-{{ p | lower }}">{{ p }}</span>
+                  {% endfor %}
+                </div>
+                {% if hero.bestPrice %}
+                  <span class="price-badge price-sale">
+                    {{ hero.bestStore }} · ${{ hero.bestPrice }}
+                    {% if hero.deals[0].cut > 0 %}<span class="price-cut">-{{ hero.deals[0].cut }}%</span>{% endif %}
+                  </span>
+                {% else %}
+                  <span class="price-tbd">TBD</span>
+                {% endif %}
               </div>
             </div>
           </article>
@@ -139,11 +149,21 @@ title: Upcoming Game Releases
               </div>
               <div class="card-body">
                 <h3>{{ game.title }}</h3>
-                <p class="meta">{{ game.releaseDate | dateFormatShort }} · {{ game.price }}</p>
-                <div class="badges">
-                  {% for p in game.platforms %}
-                    <span class="badge badge-{{ p | lower }}">{{ p }}</span>
-                  {% endfor %}
+                <p class="meta">{{ game.releaseDate | dateFormatShort }}</p>
+                <div class="card-footer">
+                  <div class="badges">
+                    {% for p in game.platforms %}
+                      <span class="badge badge-{{ p | lower }}">{{ p }}</span>
+                    {% endfor %}
+                  </div>
+                  {% if game.bestPrice %}
+                    <span class="price-badge price-sale">
+                      ${{ game.bestPrice }}
+                      {% if game.deals[0].cut > 0 %}<span class="price-cut">-{{ game.deals[0].cut }}%</span>{% endif %}
+                    </span>
+                  {% else %}
+                    <span class="price-tbd">TBD</span>
+                  {% endif %}
                 </div>
               </div>
             </article>

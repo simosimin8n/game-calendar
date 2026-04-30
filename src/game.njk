@@ -180,6 +180,31 @@ eleventyComputed:
       </section>
       {% endif %}
 
+      {% if game.deals and game.deals.length %}
+      <section class="gd-sidebar-section">
+        <h3 class="gd-sidebar-label">Best Prices</h3>
+        <div class="gd-deals">
+          {% for deal in game.deals %}
+          <a href="{{ deal.url }}" target="_blank" rel="noopener" class="gd-deal-row">
+            <span class="gd-deal-store">{{ deal.store }}</span>
+            {% if deal.cut > 0 %}
+              <span class="gd-deal-cut">-{{ deal.cut }}%</span>
+              <span class="gd-deal-regular">${{ deal.regular }}</span>
+            {% endif %}
+            <span class="gd-deal-price">${{ deal.price }}</span>
+            <span class="gd-deal-arrow">↗</span>
+          </a>
+          {% endfor %}
+        </div>
+        {% if game.itadUrl %}
+          <a href="{{ game.itadUrl }}" target="_blank" rel="noopener"
+             class="gd-link-btn" style="margin-top:0.6rem;display:inline-block;">
+            All prices on ITAD ↗
+          </a>
+        {% endif %}
+      </section>
+      {% endif %}
+
       {% if game.websites and game.websites.length %}
       <section class="gd-sidebar-section">
         <h3 class="gd-sidebar-label">Links</h3>

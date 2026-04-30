@@ -462,7 +462,83 @@ main { flex: 1; }
   font-weight: 400;
 }
 
-.badges { display: flex; gap: 4px; flex-wrap: wrap; margin-top: auto; }
+/* ── PRICE ───────────────────────────────────── */
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+  margin-top: auto;
+  padding-top: 0.4rem;
+}
+.price-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #4ade80;
+  white-space: nowrap;
+}
+.price-sale {
+  color: #4ade80;
+}
+.price-cut {
+  font-size: 0.6rem;
+  background: #14532d;
+  color: #86efac;
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  font-weight: 700;
+}
+.price-tbd {
+  font-size: 0.68rem;
+  color: var(--text-faint);
+}
+
+/* ── DEALS TABLE (game detail) ───────────────── */
+.gd-deals {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.gd-deal-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.82rem;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.12s;
+}
+.gd-deal-row:last-child { border-bottom: none; }
+.gd-deal-row:hover { background: var(--bg-deeper); }
+.gd-deal-store { flex: 1; font-weight: 600; color: var(--text); }
+.gd-deal-cut {
+  font-size: 0.62rem;
+  font-weight: 700;
+  background: #14532d;
+  color: #86efac;
+  padding: 0.12rem 0.4rem;
+  border-radius: 3px;
+}
+.gd-deal-price {
+  font-weight: 700;
+  color: #4ade80;
+  min-width: 52px;
+  text-align: right;
+}
+.gd-deal-regular {
+  font-size: 0.7rem;
+  color: var(--text-faint);
+  text-decoration: line-through;
+}
+.gd-deal-arrow { color: var(--text-faint); font-size: 0.75rem; }
+
+.badges { display: flex; gap: 4px; flex-wrap: wrap; }
 .badge {
   font-size: 0.6rem;
   padding: 0.18rem 0.45rem;
