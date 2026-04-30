@@ -47,29 +47,34 @@ title: Upcoming Game Releases
       <span class="hot-tag">HOT</span>
       <h2>Most Anticipated</h2>
     </div>
-    <div class="hot-grid">
-      {% for game in games | topN(3) %}
-        <a href="/games/{{ game.slug }}/" class="card-link">
-          <article class="card hot-card">
-            <div class="cover cover-{{ game.color }} cover-hot">
-              {% if game.cover %}<img src="{{ game.cover }}" alt="{{ game.title }}" class="cover-img">{% endif %}
-              <span class="rank-badge rank-{{ loop.index }}">{{ loop.index }}</span>
-              <span class="hot-hype">{{ game.hype }}</span>
-            </div>
-            <div class="card-body">
-              <h3>{{ game.title }}</h3>
-              <p class="meta">{{ game.releaseDate | dateFormat }} · {{ game.price }}</p>
-              <p class="genres">{{ game.genres | join(' · ') }}</p>
-              <div class="badges">
-                {% for p in game.platforms %}
-                  <span class="badge badge-{{ p | lower }}">{{ p }}</span>
-                {% endfor %}
+    {% for group in games | topPerMonth(3) %}
+    <div class="hot-month-block">
+      <p class="hot-month-label">{{ group.month }}</p>
+      <div class="hot-grid">
+        {% for game in group.games %}
+          <a href="/games/{{ game.slug }}/" class="card-link">
+            <article class="card hot-card">
+              <div class="cover cover-{{ game.color }} cover-hot">
+                {% if game.cover %}<img src="{{ game.cover }}" alt="{{ game.title }}" class="cover-img">{% endif %}
+                <span class="rank-badge rank-{{ loop.index }}">{{ loop.index }}</span>
+                <span class="hot-hype">{{ game.hype }}</span>
               </div>
-            </div>
-          </article>
-        </a>
-      {% endfor %}
+              <div class="card-body">
+                <h3>{{ game.title }}</h3>
+                <p class="meta">{{ game.releaseDate | dateFormat }} · {{ game.price }}</p>
+                <p class="genres">{{ game.genres | join(' · ') }}</p>
+                <div class="badges">
+                  {% for p in game.platforms %}
+                    <span class="badge badge-{{ p | lower }}">{{ p }}</span>
+                  {% endfor %}
+                </div>
+              </div>
+            </article>
+          </a>
+        {% endfor %}
+      </div>
     </div>
+    {% endfor %}
   </div>
 </section>
 

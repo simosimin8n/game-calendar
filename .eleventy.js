@@ -49,6 +49,22 @@ module.exports = function (eleventyConfig) {
     games.filter(g => g.id !== id)
   );
 
+  // [{month, games: topN by hype}] — one entry per month
+  eleventyConfig.addFilter("topPerMonth", (games, n) => {
+    const sorted = [...games].sort((a, b) => a.releaseDate.localeCompare(b.releaseDate));
+    const map = new Map();
+    for (const game of sorted) {
+      const [y, m] = game.releaseDate.split("-").map(Number);
+      const key = `${MONTHS[m - 1]} ${y}`;
+      if (!map.has(key)) map.set(key, []);
+      map.get(key).push(game);
+    }
+    return Array.from(map, ([month, list]) => ({
+      month,
+      games: [...list].sort((a, b) => (b.hype || 0) - (a.hype || 0)).slice(0, n || 3)
+    }));
+  });
+
   eleventyConfig.addFilter("allGenres", (games) => {
     const set = new Set();
     games.forEach(g => (g.genres || []).forEach(genre => set.add(genre)));
