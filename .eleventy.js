@@ -1,52 +1,50 @@
-module.exports = function(eleventyConfig) {
+const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
 
-  // Date in italiano (formato lungo: "14 maggio 2026")
-  eleventyConfig.addFilter("dataIt", function(dateString) {
-    if (!dateString) return "TBA";
-    const d = new Date(dateString);
-    const mesi = ["gennaio","febbraio","marzo","aprile","maggio","giugno",
-                  "luglio","agosto","settembre","ottobre","novembre","dicembre"];
-    return `${d.getDate()} ${mesi[d.getMonth()]} ${d.getFullYear()}`;
+  eleventyConfig.addGlobalData("buildTime", () =>
+    new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })
+  );
+
+  // "2026-05-14" → "May 14, 2026"
+  eleventyConfig.addFilter("dateFormat", (dateStr) => {
+    const [y, m, d] = dateStr.split("-").map(Number);
+    return `${MONTHS[m - 1]} ${d}, ${y}`;
   });
 
-  // Date in italiano abbreviata (formato corto: "14 mag")
-  eleventyConfig.addFilter("dataItShort", function(dateString) {
-    if (!dateString) return "TBA";
-    const d = new Date(dateString);
-    const mesi = ["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic"];
-    return `${d.getDate()} ${mesi[d.getMonth()]}`;
+  // "2026-05-14" → "May 14"
+  eleventyConfig.addFilter("dateFormatShort", (dateStr) => {
+    const [, m, d] = dateStr.split("-").map(Number);
+    return `${MONTHS[m - 1].slice(0, 3)} ${d}`;
   });
 
-  // Raggruppa giochi per mese (ordinati cronologicamente)
-  eleventyConfig.addFilter("groupByMese", function(games) {
-    const mesi = ["gennaio","febbraio","marzo","aprile","maggio","giugno",
-                  "luglio","agosto","settembre","ottobre","novembre","dicembre"];
-    const sorted = [...games].sort((a, b) => new Date(a.releaseDate) - new Date(b.releaseDate));
-    const groups = {};
-    sorted.forEach(g => {
-      if (!g.releaseDate) return;
-      const d = new Date(g.releaseDate);
-      const key = `${mesi[d.getMonth()]} ${d.getFullYear()}`;
-      if (!groups[key]) groups[key] = [];
-      groups[key].push(g);
-    });
-    return Object.entries(groups).map(([mese, giochi]) => ({ mese, giochi }));
+  // games[] → [{month: "May 2026", games: [...]}, ...]
+  eleventyConfig.addFilter("groupByMonth", (games) => {
+    const sorted = [...games].sort((a, b) => a.releaseDate.localeCompare(b.releaseDate));
+    const map = new Map();
+    for (const game of sorted) {
+      const [y, m] = game.releaseDate.split("-").map(Number);
+      const key = `${MONTHS[m - 1]} ${y}`;
+      if (!map.has(key)) map.set(key, []);
+      map.get(key).push(game);
+    }
+    return Array.from(map, ([month, games]) => ({ month, games }));
   });
 
-  // Top hype del mese: il gioco con hype più alto (per la hero card)
-  eleventyConfig.addFilter("topHype", function(games) {
+  eleventyConfig.addFilter("topHype", (games) => {
     if (!games || games.length === 0) return null;
     return [...games].sort((a, b) => (b.hype || 0) - (a.hype || 0))[0];
   });
 
-  // Tutti tranne uno specifico (per escludere la hero dalla griglia)
-  eleventyConfig.addFilter("exceptId", function(games, id) {
-    return games.filter(g => g.id !== id);
-  });
+  eleventyConfig.addFilter("exceptId", (games, id) =>
+    games.filter(g => g.id !== id)
+  );
 
-  // Estrae tutti i generi unici (per i filtri)
-  eleventyConfig.addFilter("allGenres", function(games) {
+  eleventyConfig.addFilter("allGenres", (games) => {
     const set = new Set();
     games.forEach(g => (g.genres || []).forEach(genre => set.add(genre)));
     return [...set].sort();
@@ -57,7 +55,7 @@ module.exports = function(eleventyConfig) {
       input: "src",
       output: "_site",
       includes: "_includes",
-      data: "_data"
-    }
+      data: "_data",
+    },
   };
 };

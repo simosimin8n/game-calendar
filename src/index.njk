@@ -1,30 +1,30 @@
 ---
 layout: base.njk
-title: Prossime uscite videogiochi
+title: Upcoming Game Releases
 ---
 
 <section class="topbar">
   <div class="container">
     <div class="topbar-inner">
       <div>
-        <p class="updated-tag">Aggiornato 4 ore fa · {{ games | length }} giochi</p>
-        <h1>Prossime uscite</h1>
+        <p class="updated-tag">Updated {{ buildTime }} · {{ games | length }} games</p>
+        <h1>Upcoming Releases</h1>
       </div>
       <div class="search-sort">
-        <input type="text" id="search" placeholder="Cerca un gioco..." autocomplete="off">
+        <input type="text" id="search" placeholder="Search a game..." autocomplete="off">
         <select id="sort">
-          <option value="date-asc">Data ↑</option>
-          <option value="date-desc">Data ↓</option>
-          <option value="hype">Più attesi</option>
-          <option value="price-asc">Prezzo ↑</option>
-          <option value="price-desc">Prezzo ↓</option>
+          <option value="date-asc">Date ↑</option>
+          <option value="date-desc">Date ↓</option>
+          <option value="hype">Most Hyped</option>
+          <option value="price-asc">Price ↑</option>
+          <option value="price-desc">Price ↓</option>
         </select>
       </div>
     </div>
 
     <div class="filters">
       <div class="filter-group" data-filter-type="platform">
-        <button class="filter-btn active" data-value="all">Tutte</button>
+        <button class="filter-btn active" data-value="all">All</button>
         <button class="filter-btn" data-value="PC">PC</button>
         <button class="filter-btn" data-value="PS5">PS5</button>
         <button class="filter-btn" data-value="Xbox">Xbox</button>
@@ -32,7 +32,7 @@ title: Prossime uscite videogiochi
       </div>
       <div class="filter-divider"></div>
       <div class="filter-group" data-filter-type="genre">
-        <button class="filter-btn active" data-value="all">Tutti i generi</button>
+        <button class="filter-btn active" data-value="all">All genres</button>
         {% for genre in games | allGenres %}
           <button class="filter-btn" data-value="{{ genre }}">{{ genre }}</button>
         {% endfor %}
@@ -42,65 +42,69 @@ title: Prossime uscite videogiochi
 </section>
 
 <div class="container content">
-  <p id="empty-state" class="empty-state" style="display:none;">Nessun gioco trovato con questi filtri.</p>
+  <p id="empty-state" class="empty-state" style="display:none;">No games found with these filters.</p>
 
-  {% for group in games | groupByMese %}
-    {% set hero = group.giochi | topHype %}
-    {% set rest = group.giochi | exceptId(hero.id) %}
+  {% for group in games | groupByMonth %}
+    {% set hero = group.games | topHype %}
+    {% set rest = group.games | exceptId(hero.id) %}
 
     <section class="month-section" data-month-block>
       <div class="month-head">
-        <p class="month-label">{{ group.mese }}</p>
-        <p class="month-count">{{ group.giochi | length }} giochi</p>
+        <p class="month-label">{{ group.month }}</p>
+        <p class="month-count">{{ group.games | length }} games</p>
       </div>
 
       <div class="month-grid">
-        <article class="card hero-card"
-                 data-platforms="{{ hero.platforms | join(',') }}"
-                 data-genres="{{ hero.genres | join(',') }}"
-                 data-title="{{ hero.title | lower }}"
-                 data-date="{{ hero.releaseDate }}"
-                 data-hype="{{ hero.hype }}"
-                 data-price="{{ hero.price }}">
-          <div class="cover cover-{{ hero.color }} cover-hero">
-            {% if hero.cover %}<img src="{{ hero.cover }}" alt="{{ hero.title }}" class="cover-img">{% endif %}
-            <div class="hype-badge">HYPE {{ hero.hype }}</div>
-            {% if not hero.cover %}<div class="cover-title">{{ hero.title | upper }}</div>{% endif %}
-          </div>
-          <div class="card-body">
-            <h3>{{ hero.title }}</h3>
-            <p class="meta">{{ hero.releaseDate | dataIt }} · {{ hero.price }}</p>
-            <p class="genres">{{ hero.genres | join(' · ') }}</p>
-            <div class="badges">
-              {% for p in hero.platforms %}
-                <span class="badge badge-{{ p | lower }}">{{ p }}</span>
-              {% endfor %}
-            </div>
-          </div>
-        </article>
-
-        {% for game in rest %}
-          <article class="card medium-card"
-                   data-platforms="{{ game.platforms | join(',') }}"
-                   data-genres="{{ game.genres | join(',') }}"
-                   data-title="{{ game.title | lower }}"
-                   data-date="{{ game.releaseDate }}"
-                   data-hype="{{ game.hype }}"
-                   data-price="{{ game.price }}">
-            <div class="cover cover-{{ game.color }}">
-              {% if game.cover %}<img src="{{ game.cover }}" alt="{{ game.title }}" class="cover-img">{% endif %}
-              <div class="hype-mini">{{ game.hype }}</div>
+        <a href="{{ hero.url or 'https://www.igdb.com' }}" target="_blank" rel="noopener" class="card-link">
+          <article class="card hero-card"
+                   data-platforms="{{ hero.platforms | join(',') }}"
+                   data-genres="{{ hero.genres | join(',') }}"
+                   data-title="{{ hero.title | lower }}"
+                   data-date="{{ hero.releaseDate }}"
+                   data-hype="{{ hero.hype }}"
+                   data-price="{{ hero.price }}">
+            <div class="cover cover-{{ hero.color }} cover-hero">
+              {% if hero.cover %}<img src="{{ hero.cover }}" alt="{{ hero.title }}" class="cover-img">{% endif %}
+              <div class="hype-badge">HYPE {{ hero.hype }}</div>
+              {% if not hero.cover %}<div class="cover-title">{{ hero.title | upper }}</div>{% endif %}
             </div>
             <div class="card-body">
-              <h3>{{ game.title }}</h3>
-              <p class="meta">{{ game.releaseDate | dataItShort }} · {{ game.price }}</p>
+              <h3>{{ hero.title }}</h3>
+              <p class="meta">{{ hero.releaseDate | dateFormat }} · {{ hero.price }}</p>
+              <p class="genres">{{ hero.genres | join(' · ') }}</p>
               <div class="badges">
-                {% for p in game.platforms %}
+                {% for p in hero.platforms %}
                   <span class="badge badge-{{ p | lower }}">{{ p }}</span>
                 {% endfor %}
               </div>
             </div>
           </article>
+        </a>
+
+        {% for game in rest %}
+          <a href="{{ game.url or 'https://www.igdb.com' }}" target="_blank" rel="noopener" class="card-link">
+            <article class="card medium-card"
+                     data-platforms="{{ game.platforms | join(',') }}"
+                     data-genres="{{ game.genres | join(',') }}"
+                     data-title="{{ game.title | lower }}"
+                     data-date="{{ game.releaseDate }}"
+                     data-hype="{{ game.hype }}"
+                     data-price="{{ game.price }}">
+              <div class="cover cover-{{ game.color }}">
+                {% if game.cover %}<img src="{{ game.cover }}" alt="{{ game.title }}" class="cover-img">{% endif %}
+                <div class="hype-mini">{{ game.hype }}</div>
+              </div>
+              <div class="card-body">
+                <h3>{{ game.title }}</h3>
+                <p class="meta">{{ game.releaseDate | dateFormatShort }} · {{ game.price }}</p>
+                <div class="badges">
+                  {% for p in game.platforms %}
+                    <span class="badge badge-{{ p | lower }}">{{ p }}</span>
+                  {% endfor %}
+                </div>
+              </div>
+            </article>
+          </a>
         {% endfor %}
       </div>
     </section>
@@ -118,7 +122,7 @@ title: Prossime uscite videogiochi
   let searchTerm = '';
 
   function priceToNumber(p) {
-    if (!p) return Infinity;
+    if (!p || p === 'TBD') return Infinity;
     const m = p.match(/[\d,]+/);
     if (!m) return Infinity;
     return parseFloat(m[0].replace(',', '.'));
@@ -136,14 +140,13 @@ title: Prossime uscite videogiochi
       const searchOk = !searchTerm || title.includes(searchTerm);
 
       const visible = platformOk && genreOk && searchOk;
-      card.style.display = visible ? '' : 'none';
+      card.closest('a').style.display = visible ? '' : 'none';
       if (visible) visibleCount++;
     });
 
-    // Nasconde i blocchi mese vuoti
     monthSections.forEach(section => {
-      const visibleCards = section.querySelectorAll('.card:not([style*="display: none"])');
-      section.style.display = visibleCards.length > 0 ? '' : 'none';
+      const visible = section.querySelectorAll('a:not([style*="display: none"]) .card');
+      section.style.display = visible.length > 0 ? '' : 'none';
     });
 
     emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
@@ -153,21 +156,22 @@ title: Prossime uscite videogiochi
     const mode = sortSelect.value;
     monthSections.forEach(section => {
       const grid = section.querySelector('.month-grid');
-      const cardArr = [...grid.querySelectorAll('.card')];
-      cardArr.sort((a, b) => {
+      const links = [...grid.querySelectorAll('a')];
+      links.sort((a, b) => {
+        const ca = a.querySelector('.card');
+        const cb = b.querySelector('.card');
         switch (mode) {
-          case 'date-asc':  return new Date(a.dataset.date) - new Date(b.dataset.date);
-          case 'date-desc': return new Date(b.dataset.date) - new Date(a.dataset.date);
-          case 'hype':      return parseInt(b.dataset.hype) - parseInt(a.dataset.hype);
-          case 'price-asc': return priceToNumber(a.dataset.price) - priceToNumber(b.dataset.price);
-          case 'price-desc':return priceToNumber(b.dataset.price) - priceToNumber(a.dataset.price);
+          case 'date-asc':  return new Date(ca.dataset.date) - new Date(cb.dataset.date);
+          case 'date-desc': return new Date(cb.dataset.date) - new Date(ca.dataset.date);
+          case 'hype':      return parseInt(cb.dataset.hype) - parseInt(ca.dataset.hype);
+          case 'price-asc': return priceToNumber(ca.dataset.price) - priceToNumber(cb.dataset.price);
+          case 'price-desc':return priceToNumber(cb.dataset.price) - priceToNumber(ca.dataset.price);
         }
       });
-      cardArr.forEach(c => grid.appendChild(c));
+      links.forEach(l => grid.appendChild(l));
     });
   }
 
-  // Filtri
   document.querySelectorAll('.filter-group').forEach(group => {
     const type = group.dataset.filterType;
     group.querySelectorAll('.filter-btn').forEach(btn => {
@@ -180,12 +184,10 @@ title: Prossime uscite videogiochi
     });
   });
 
-  // Ricerca
   searchInput.addEventListener('input', e => {
     searchTerm = e.target.value.toLowerCase().trim();
     applyFilters();
   });
 
-  // Sort
   sortSelect.addEventListener('change', applySort);
 </script>

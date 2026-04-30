@@ -218,6 +218,11 @@ main { flex: 1; }
 }
 
 /* === CARDS === */
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
 .card {
   background: var(--bg-elevated);
   border: 1px solid var(--border);
