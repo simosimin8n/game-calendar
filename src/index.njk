@@ -63,8 +63,9 @@ title: Prossime uscite videogiochi
                  data-hype="{{ hero.hype }}"
                  data-price="{{ hero.price }}">
           <div class="cover cover-{{ hero.color }} cover-hero">
+            {% if hero.cover %}<img src="{{ hero.cover }}" alt="{{ hero.title }}" class="cover-img">{% endif %}
             <div class="hype-badge">HYPE {{ hero.hype }}</div>
-            <div class="cover-title">{{ hero.title | upper }}</div>
+            {% if not hero.cover %}<div class="cover-title">{{ hero.title | upper }}</div>{% endif %}
           </div>
           <div class="card-body">
             <h3>{{ hero.title }}</h3>
@@ -87,6 +88,7 @@ title: Prossime uscite videogiochi
                    data-hype="{{ game.hype }}"
                    data-price="{{ game.price }}">
             <div class="cover cover-{{ game.color }}">
+              {% if game.cover %}<img src="{{ game.cover }}" alt="{{ game.title }}" class="cover-img">{% endif %}
               <div class="hype-mini">{{ game.hype }}</div>
             </div>
             <div class="card-body">
