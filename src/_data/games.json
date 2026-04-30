@@ -884,5 +884,7791 @@
     "hype": 4,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobz6g.jpg",
     "color": "coral"
+  },
+  {
+    "id": 378228,
+    "title": "Echo Generation 2",
+    "releaseDate": "2026-05-27",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 10,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobibf.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 279120,
+    "title": "Map Map: A Game About Maps",
+    "releaseDate": "2026-05-28",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9uhn.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 302888,
+    "title": "The Remake of the End of the Greatest RPG of All Time",
+    "releaseDate": "2026-05-28",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Role-playing (RPG)"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobzdh.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 352789,
+    "title": "Shift at Midnight",
+    "releaseDate": "2026-05-28",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa2v6.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 372144,
+    "title": "Crashout Crew",
+    "releaseDate": "2026-05-28",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Racing",
+      "Indie",
+      "Arcade"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coan16.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 335686,
+    "title": "Void Martyrs",
+    "releaseDate": "2026-06-01",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 9,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9qeg.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 203520,
+    "title": "Calx",
+    "releaseDate": "2026-06-04",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coblm1.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 372123,
+    "title": "Shepherd Knight",
+    "releaseDate": "2026-06-04",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coan07.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 394668,
+    "title": "The 7th Guest Remake",
+    "releaseDate": "2026-06-04",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobrc7.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 397606,
+    "title": "There's Nothing Down There",
+    "releaseDate": "2026-06-04",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobw6t.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 148227,
+    "title": "Gothic 1 Remake",
+    "releaseDate": "2026-06-05",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)"
+    ],
+    "hype": 49,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9lfu.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 194950,
+    "title": "Solarpunk",
+    "releaseDate": "2026-06-08",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 18,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jem.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 375237,
+    "title": "Vampire Hunter: Nightrise",
+    "releaseDate": "2026-06-08",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaqy9.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 341400,
+    "title": "Voidling Bound",
+    "releaseDate": "2026-06-09",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9uyx.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 346994,
+    "title": "Glimvale: My Mini Overworld",
+    "releaseDate": "2026-06-17",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Strategy",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9wpp.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 361826,
+    "title": "Denshattack!",
+    "releaseDate": "2026-06-17",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Platform",
+      "Racing",
+      "Sport",
+      "Adventure"
+    ],
+    "hype": 26,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaawz.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 325582,
+    "title": "Dave the Diver: In the Jungle",
+    "releaseDate": "2026-06-18",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9luv.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 358534,
+    "title": "The Adventures of Elliot: The Millennium Tales",
+    "releaseDate": "2026-06-18",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 22,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coblri.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 389425,
+    "title": "Dead or Alive 6 Last Round",
+    "releaseDate": "2026-06-25",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Fighting"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobihh.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 121395,
+    "title": "Wind Runners",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3n9b.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 135987,
+    "title": "ExoMecha",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t8x.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 145424,
+    "title": "Rogue Mansion",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6t0v.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 147345,
+    "title": "Redemption of the Damned",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co30a5.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 150509,
+    "title": "Nocturne",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Music",
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9vnq.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 189781,
+    "title": "Mina the Hollower",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 41,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4g15.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 192948,
+    "title": "Occulto",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co98vi.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 202129,
+    "title": "Athanasia",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9wni.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 211671,
+    "title": "Glaciered",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5doo.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 225582,
+    "title": "Control Resonant",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "hype": 110,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob0fw.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 235402,
+    "title": "Vampire Rancher",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8b6n.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 240757,
+    "title": "Changer Seven",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8eib.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 242328,
+    "title": "Robo Frenzy",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6a6v.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 244677,
+    "title": "Atmosfar",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 11,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9y8k.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 252852,
+    "title": "Mariachi Legends",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 21,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co93lp.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 253578,
+    "title": "Dimhaven: The Lost Source",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8c5a.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 258341,
+    "title": "Neo Junk City",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8usa.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 265796,
+    "title": "Rubinite",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9g0p.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 267590,
+    "title": "Fantastic Haven",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co73xu.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 275251,
+    "title": "Desktop Explorer",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaqz5.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 278824,
+    "title": "The Witch's Bakery",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 10,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8tks.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 279123,
+    "title": "Momento",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Puzzle"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gxq.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 282041,
+    "title": "Tidebound",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co88fk.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 285987,
+    "title": "Teeto",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ecr.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 286226,
+    "title": "Emery Hearts",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaf37.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 289302,
+    "title": "Infinity Knights: Xross",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7uax.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 296564,
+    "title": "Terrible Lizards",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coboiu.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 301494,
+    "title": "Prelude Dark Pain",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Tactical",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co998j.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 302107,
+    "title": "Maseylia : Echoes of the Past",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobz55.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 304148,
+    "title": "Below, Rusted Gods",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9uqo.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 304947,
+    "title": "Aokaki",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8be9.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 310336,
+    "title": "Nocturnal II",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9vk5.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 314489,
+    "title": "Mightreya",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Fighting",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co92ik.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 327111,
+    "title": "Nightmare Circus",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coat6g.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 335841,
+    "title": "Castlebound",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9jks.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 340592,
+    "title": "Bookbinding",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9p9l.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 341690,
+    "title": "Aurora Polaris",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "Indie",
+      "Arcade"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa2nl.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 342028,
+    "title": "Clawed",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9qwk.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 345164,
+    "title": "The Devil's Due",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Strategy",
+      "Indie",
+      "Card & Board Game"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9up2.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 347185,
+    "title": "Deep Pixel Melancholy",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Visual Novel"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9wyg.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 347439,
+    "title": "Grim Trials",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9y28.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 347840,
+    "title": "A Heavy Morning",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9y1a.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 350179,
+    "title": "Servant of the Lake",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab7n.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 355047,
+    "title": "Death Kitchen",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Tactical",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaj5l.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 358396,
+    "title": "Shutter Story",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 11,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobjhp.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 364315,
+    "title": "Hollow Stories: Lockdown",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coazpu.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 368836,
+    "title": "Golden Swirl",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coawa3.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 368905,
+    "title": "The Last Keeper",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobuo7.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 375091,
+    "title": "Skinwalker: First Blood",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaqqi.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 375586,
+    "title": "Under Heaven or Hell",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Visual Novel"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coazw3.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 377061,
+    "title": "Approximately Up",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobx4o.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 378230,
+    "title": "Erosion",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 10,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coav92.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 378277,
+    "title": "Femboy Futa House: Kinky Field Trip",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure",
+      "Visual Novel"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coavbo.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 380983,
+    "title": "Retail Hell",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coblhx.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 381208,
+    "title": "TankRat",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 21,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob0ej.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 384126,
+    "title": "Dig, Dig, Die",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8l3.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 390221,
+    "title": "Uncanny Tales: The Watcher",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobjlg.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 391055,
+    "title": "Dive or Die: Children of Rain",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobphf.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 391116,
+    "title": "They Left Us Here",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobnju.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 396025,
+    "title": "S.T.A.L.K.E.R. 2: Cost of Hope",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtx0.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 397694,
+    "title": "Airport Security Sucks!",
+    "releaseDate": "2026-06-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobwdv.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 320141,
+    "title": "Mistfall Hunter",
+    "releaseDate": "2026-07-01",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 28,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ycx.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 339614,
+    "title": "SpeedRunners 2: King of Speed",
+    "releaseDate": "2026-07-01",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Fighting",
+      "Racing",
+      "Sport",
+      "Indie"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9nld.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 325366,
+    "title": "Hyperwired",
+    "releaseDate": "2026-07-02",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Indie",
+      "Arcade"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co957x.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 337031,
+    "title": "Rhythm Heaven Groove",
+    "releaseDate": "2026-07-02",
+    "price": "TBD",
+    "platforms": [
+      "Switch"
+    ],
+    "genres": [
+      "Music"
+    ],
+    "hype": 12,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobwkn.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 388461,
+    "title": "Ganbare Goemon Daishuugo",
+    "releaseDate": "2026-07-02",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Role-playing (RPG)"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobftz.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 237123,
+    "title": "Moonlight Peaks",
+    "releaseDate": "2026-07-07",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 11,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9vvs.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 337738,
+    "title": "Assassin's Creed Black Flag Resynced",
+    "releaseDate": "2026-07-09",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 41,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobyue.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 388441,
+    "title": "Granblue Fantasy: Relink - Endless Ragnarok",
+    "releaseDate": "2026-07-09",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobft8.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 393932,
+    "title": "Echoes of Aincrad",
+    "releaseDate": "2026-07-10",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobpxh.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 316425,
+    "title": "Ascend to Zero",
+    "releaseDate": "2026-07-13",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Hack and slash/Beat 'em up"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coazvz.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 369840,
+    "title": "D-topia",
+    "releaseDate": "2026-07-14",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coajon.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 334673,
+    "title": "The Mound: Omen of Cthulhu",
+    "releaseDate": "2026-07-15",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 16,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coave2.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 388439,
+    "title": "Kyoto Xanadu: The Blooming Phantom",
+    "releaseDate": "2026-07-16",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobrhn.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 287620,
+    "title": "Truxton Extreme",
+    "releaseDate": "2026-07-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Shooter",
+      "Arcade"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1rw.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 369765,
+    "title": "How Many Dudes?",
+    "releaseDate": "2026-07-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coam21.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 320975,
+    "title": "Anomaly President",
+    "releaseDate": "2026-08-03",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co96go.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 348180,
+    "title": "Beast of Reincarnation",
+    "releaseDate": "2026-08-04",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 75,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobc5q.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 347132,
+    "title": "Marvel Tokon: Fighting Souls",
+    "releaseDate": "2026-08-06",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Fighting"
+    ],
+    "hype": 38,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9wwj.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 251059,
+    "title": "Grave Seasons",
+    "releaseDate": "2026-08-14",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 32,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtwq.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 283078,
+    "title": "24",
+    "releaseDate": "2026-08-25",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coawna.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 389424,
+    "title": "Brigandine Abyss",
+    "releaseDate": "2026-08-26",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobihe.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 389433,
+    "title": "Metal Gear Solid Master Collection: Volume 2",
+    "releaseDate": "2026-08-27",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 24,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobiha.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 391780,
+    "title": "Metal Gear Solid 4: Guns of the Patriots - Master Collection Version",
+    "releaseDate": "2026-08-27",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Shooter",
+      "Tactical",
+      "Adventure"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coblhc.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 332391,
+    "title": "Velhodium Isle",
+    "releaseDate": "2026-09-01",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9fft.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 359893,
+    "title": "HMUR",
+    "releaseDate": "2026-09-01",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa8km.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 282831,
+    "title": "The Blood of Dawnwalker",
+    "releaseDate": "2026-09-02",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 163,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob7ym.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 362096,
+    "title": "Halloween",
+    "releaseDate": "2026-09-08",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [],
+    "hype": 18,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coabwm.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 250618,
+    "title": "Phantom Blade 0",
+    "releaseDate": "2026-09-09",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "hype": 147,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob64v.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 288782,
+    "title": "Dungeon Settlers",
+    "releaseDate": "2026-09-10",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobjy2.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 168667,
+    "title": "Marvel's Wolverine",
+    "releaseDate": "2026-09-15",
+    "price": "TBD",
+    "platforms": [
+      "PS5"
+    ],
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "hype": 159,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob5mk.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 377314,
+    "title": "Trails in the Sky 2nd Chapter",
+    "releaseDate": "2026-09-17",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Turn-based strategy (TBS)",
+      "Adventure"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobrhh.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 136299,
+    "title": "Forever Ago",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 10,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ooo.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 141273,
+    "title": "Tukoni: Forest Keepers",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Platform",
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa6c9.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 145078,
+    "title": "Woodo",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Puzzle",
+      "Indie"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co80cc.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 165397,
+    "title": "The Relic: First Guardian",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 25,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8btm.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 215773,
+    "title": "Lucid",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co87mw.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 225567,
+    "title": "Elation for the Wonder Box 6000",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7p6m.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 249036,
+    "title": "Vexlands",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co78lu.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 277846,
+    "title": "EVE Vanguard",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Strategy",
+      "Tactical",
+      "Adventure"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coagy9.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 291446,
+    "title": "Outward 2",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 17,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coazk8.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 298235,
+    "title": "Lost in the Roots",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaabm.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 304944,
+    "title": "Shadows of Chroma Tower",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8nl7.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 305550,
+    "title": "Acts of Blood",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Fighting",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 44,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8dw1.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 307368,
+    "title": "PVKK: Planetenverteidigungskanonenkommandant",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Simulator",
+      "Tactical",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 28,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fj9.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 307541,
+    "title": ".45 Parabellum Bloodhound",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 14,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8j7p.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 309518,
+    "title": "Lifted",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobrwj.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 317516,
+    "title": "Sick Samurai",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ukm.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 322461,
+    "title": "Sagas of Lumin",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaqvm.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 323940,
+    "title": "Deserter",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Tactical"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co93pn.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 325171,
+    "title": "Capy Castaway",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobqpk.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 325182,
+    "title": "Toem 2",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co94zw.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 338988,
+    "title": "Lootbound",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Adventure"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobeo8.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 340741,
+    "title": "Ember & Blade",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtjs.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 347887,
+    "title": "Fading Echo",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Platform",
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 9,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobpgb.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 355028,
+    "title": "DungeonBox",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coabi5.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 356188,
+    "title": "Agefield High: Rock the School",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa5dh.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 361830,
+    "title": "He-Man and the Masters of the Universe: Dragon Pearl of Destruction",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Arcade"
+    ],
+    "hype": 12,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaax5.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 362933,
+    "title": "Agecraft",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobv6z.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 363341,
+    "title": "Leafy Corner",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1lr.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 371847,
+    "title": "Blackwood",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Adventure"
+    ],
+    "hype": 11,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coampe.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 373021,
+    "title": "Avatar Legends: The Fighting Game",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Fighting"
+    ],
+    "hype": 18,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coarnf.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 380378,
+    "title": "Total War: Warhammer III - Lords of the End Times",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coay4k.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 386933,
+    "title": "Worming from Home",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc003.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 388448,
+    "title": "Another Eden Begins",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobfte.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 395525,
+    "title": "Minecraft Dungeons II",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobt7v.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 397811,
+    "title": "Machine Party",
+    "releaseDate": "2026-09-30",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobwhs.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 305181,
+    "title": "Crescent County",
+    "releaseDate": "2026-10-01",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Racing",
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 9,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8buq.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 339608,
+    "title": "Neverway",
+    "releaseDate": "2026-10-01",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 34,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9nlq.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 361847,
+    "title": "Steel Ark",
+    "releaseDate": "2026-10-01",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab5h.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 381248,
+    "title": "Star Wars: Galactic Racer",
+    "releaseDate": "2026-10-06",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Racing",
+      "Sport",
+      "Adventure"
+    ],
+    "hype": 47,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobihx.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 127780,
+    "title": "The House in the Hollow",
+    "releaseDate": "2026-10-21",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co630a.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 52189,
+    "title": "Grand Theft Auto VI",
+    "releaseDate": "2026-11-19",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PS5"
+    ],
+    "genres": [
+      "Shooter",
+      "Racing",
+      "Adventure"
+    ],
+    "hype": 862,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9rwo.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 23163,
+    "title": "Knights Province",
+    "releaseDate": "2026-12-01",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Strategy"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co79mt.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 137217,
+    "title": "Beautiful Light",
+    "releaseDate": "2026-12-01",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Tactical",
+      "Indie"
+    ],
+    "hype": 16,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9v9.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 379855,
+    "title": "Merry Crisis",
+    "releaseDate": "2026-12-01",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coazbz.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 19128,
+    "title": "Squadron 42",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 51,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co90ek.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 26200,
+    "title": "Infinitesimals",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Adventure"
+    ],
+    "hype": 36,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xhr.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 67195,
+    "title": "Witchbrook",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 63,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9l76.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 92550,
+    "title": "Fable",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 318,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobc6d.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 110939,
+    "title": "Forsaken Realms: Vahrin's Call",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 9,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob7tk.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 117329,
+    "title": "The Way of Wrath",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Tactical",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8bxl.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 120387,
+    "title": "Last Moon",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 10,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8bv9.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 121258,
+    "title": "Rune Fencer Illyia",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3hbv.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 122388,
+    "title": "HyperCore: Rhythm Bullet Hell",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coae7b.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 122521,
+    "title": "Divinum",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobsom.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 124209,
+    "title": "Shadow of the Road",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Tactical",
+      "Indie"
+    ],
+    "hype": 20,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9wp1.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 126669,
+    "title": "Carnival Hunt",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Strategy"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coal8x.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 131231,
+    "title": "Neverlooted Dungeon",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54qt.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 131927,
+    "title": "Sin: Reloaded",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Shooter"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h2r.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 140375,
+    "title": "Akatori",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 12,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7y72.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 145333,
+    "title": "Disc Creatures World",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9vod.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 145755,
+    "title": "Pocket Wheels",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Racing",
+      "Adventure",
+      "Indie",
+      "Arcade"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9j4h.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 151707,
+    "title": "Eden.schemata();",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3948.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 152058,
+    "title": "Honeycomb: The World Beyond",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co97d9.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 152268,
+    "title": "SacriFire",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 21,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9re1.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 152275,
+    "title": "Building Relationships",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8bj3.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 152446,
+    "title": "They Are Here: Alien Abduction Horror",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co46de.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 153913,
+    "title": "Espiocracy",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co933f.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 155987,
+    "title": "Yuha's Nightmares",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3l6s.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 157093,
+    "title": "Tic-Tac: Twelve O’Clock",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coanrp.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 159717,
+    "title": "Imperial Grace",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Visual Novel"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co43ir.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 171529,
+    "title": "Island of Winds",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3uji.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 173020,
+    "title": "Fragile Existence",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Tactical"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co933j.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 177316,
+    "title": "Townseek",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65f9.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 177862,
+    "title": "Enter the Chronosphere",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co862m.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 186613,
+    "title": "Showa American Story",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 23,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bv1.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 187392,
+    "title": "Our Life: Now & Forever",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie",
+      "Visual Novel"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6qng.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 191817,
+    "title": "Ardenfall",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co582x.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 194855,
+    "title": "The Bornless",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "hype": 17,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coar5s.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 197172,
+    "title": "Mira and the Legend of the Djinns",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co66pw.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 201539,
+    "title": "The Backworld",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9vn6.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 202138,
+    "title": "Deer & Boy",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 24,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4rqn.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 203301,
+    "title": "Nivalis",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure"
+    ],
+    "hype": 35,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4td5.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 204463,
+    "title": "Good Heavens!",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobwv9.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 207601,
+    "title": "Abyss Fantasia",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co56vo.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 210905,
+    "title": "Almost My Floor: Duality",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co578r.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 211234,
+    "title": "Paws and Leaves: A Last Tale",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Visual Novel"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xb6.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 213557,
+    "title": "Bloody Hell Hotel",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co558e.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 214706,
+    "title": "Lou's Lagoon",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure"
+    ],
+    "hype": 9,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9p05.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 216315,
+    "title": "Marvel 1943: Rise of Hydra",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 80,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa1rh.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 216390,
+    "title": "Kvlt",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fcm.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 216692,
+    "title": "Tenebris Somnia",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 19,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7aws.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 217024,
+    "title": "Kitsune: The Journey of Adashino",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6gvm.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 217503,
+    "title": "Bunker Builder Simulator",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6585.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 220395,
+    "title": "Littlelands",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84bx.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 221667,
+    "title": "Astromeda",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Turn-based strategy (TBS)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7fw4.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 222342,
+    "title": "Silent Hill: Townfall",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 59,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coblmp.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 235901,
+    "title": "Becrowned",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 14,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8b6o.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 235973,
+    "title": "Zwaard",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa9br.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 236528,
+    "title": "Gilded Destiny",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa16n.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 236661,
+    "title": "DecaPolice",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)"
+    ],
+    "hype": 9,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8upi.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 236665,
+    "title": "Professor Layton and the New World of Steam",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "hype": 32,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co66va.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 239002,
+    "title": "Beyond These Stars",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ozj.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 239125,
+    "title": "99 Fails",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Indie",
+      "Arcade"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co66p4.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 239828,
+    "title": "He Who Watches",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ddp.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 240636,
+    "title": "Legends of Castile",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9rim.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 244602,
+    "title": "Cosmic Holidays",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co89o4.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 246147,
+    "title": "Bogdan's Cross",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ebv.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 247780,
+    "title": "Portabellows",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9wwk.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 249626,
+    "title": "Hayaku! Island of Darkness",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coazpz.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 250031,
+    "title": "Tako no Himitsu: Ocean of Secrets",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6i0x.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 251065,
+    "title": "Haruka: Beyond the Stars",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jsr.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 252347,
+    "title": "Light Odyssey",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobg1s.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 252349,
+    "title": "Toxic Crusaders",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6lgy.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 252581,
+    "title": "Gunmetal Gothic",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6lnm.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 252774,
+    "title": "Loftia",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaakj.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 252793,
+    "title": "Surviving Deponia",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6lw1.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 252870,
+    "title": "Breathedge 2",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator"
+    ],
+    "hype": 13,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6m12.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 257932,
+    "title": "Time To Wake Up",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobk1q.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 258574,
+    "title": "Cyber Paradise",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co97s4.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 259216,
+    "title": "Cook, Serve, Delicious: Re-Mustard!",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobxo9.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 259454,
+    "title": "Lunr.Rdio.Taxi",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Music",
+      "Racing",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1nc.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 260169,
+    "title": "Water Me & You",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8vp8.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 260303,
+    "title": "Garbage Country",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Indie"
+    ],
+    "hype": 13,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8s0l.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 261147,
+    "title": "Corpse Party II: Darkness Distortion",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure",
+      "Visual Novel"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9td1.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 261673,
+    "title": "Psychotic Bathtub",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Indie",
+      "Visual Novel"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9rlw.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 263964,
+    "title": "Alpine Lake",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co89m8.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 264303,
+    "title": "Undefeated: Genesis",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co70lt.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 265267,
+    "title": "Tom the Postgirl",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Visual Novel"
+    ],
+    "hype": 11,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8bj6.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 265621,
+    "title": "Hollow Home",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8pa6.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 266985,
+    "title": "Kosmocean: The Endless Sea",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ven.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 268103,
+    "title": "500 Caliber Contractz",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co970y.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 268212,
+    "title": "Tower of Tears",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob031.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 270929,
+    "title": "Schrodinger's Cat Burglar",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9pyo.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 271897,
+    "title": "Music Power Up",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8brv.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 273275,
+    "title": "The Bugs Manor",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie",
+      "Visual Novel"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xmn.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 274238,
+    "title": "Deltarune: Chapter 5",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Turn-based strategy (TBS)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7aq3.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 274714,
+    "title": "Bendy: The Cage",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaryx.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 275560,
+    "title": "Dr. Finklestein's Marvelous Room",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co85pv.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 275734,
+    "title": "False Hero",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobul7.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 275747,
+    "title": "Dungeons Deep",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7caq.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 276836,
+    "title": "England in London",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co91p3.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 277294,
+    "title": "Northanda Chronicles",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobxte.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 279369,
+    "title": "The Mermaid Mask",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8dvp.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 279624,
+    "title": "Big Walk",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Adventure"
+    ],
+    "hype": 24,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7h9m.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 279963,
+    "title": "Dragon Shelter",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8brx.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 280572,
+    "title": "Aeterna Lucis",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9i7h.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 281253,
+    "title": "L.OD",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ke1.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 283354,
+    "title": "Enginefall",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 13,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtli.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 284115,
+    "title": "Sunkissed City",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7odv.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 285002,
+    "title": "Dark Lessons",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95mm.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 285768,
+    "title": "Lost Hellden",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 10,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ryd.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 288507,
+    "title": "V.E.D.A: The Awakening of Souls",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobzvf.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 289602,
+    "title": "Goals",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Sport"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coavz8.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 289696,
+    "title": "The Sinking City 2",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "hype": 36,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7uod.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 289706,
+    "title": "Abyss X Zero",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 11,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7uop.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 289919,
+    "title": "Unyverse",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9uwp.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 291104,
+    "title": "Polda 8",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Adventure"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7w07.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 291190,
+    "title": "Deperson",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8kui.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 291489,
+    "title": "Confined: Leaving OKB-134",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zxz.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 292419,
+    "title": "Cat Secretary",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coby6w.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 292519,
+    "title": "Cozy Marbles",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coauup.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 292585,
+    "title": "Headlice",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Platform",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7xhz.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 294343,
+    "title": "BrokenLore: Follow",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 9,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8af0.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 298680,
+    "title": "Deep Dish Dungeon",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 9,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9fh8.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 301328,
+    "title": "Serial World",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab87.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 301423,
+    "title": "Skyblivion",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9jzd.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 301606,
+    "title": "Revelation of Decay",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaidm.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 302037,
+    "title": "Rita",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95uq.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 304307,
+    "title": "Cozy Dungeons",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ar2.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 305011,
+    "title": "Tears of Metal",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Indie"
+    ],
+    "hype": 20,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8bic.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 305029,
+    "title": "Battle Vision Network",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Strategy"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8biz.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 305039,
+    "title": "Tenjutsu",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Indie"
+    ],
+    "hype": 20,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8clt.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 305160,
+    "title": "Gears of War: E-Day",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 65,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8bor.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 305188,
+    "title": "Stormforge",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8bux.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 305743,
+    "title": "Gummy Nightmares",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8lc4.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 306217,
+    "title": "Five Laps at Freddy's",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Racing",
+      "Indie"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8p3l.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 307263,
+    "title": "Polyaris",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8f8a.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 309162,
+    "title": "Cupid's Chatroom",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie",
+      "Visual Novel"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95ht.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 309799,
+    "title": "Truckful",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 16,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qbv.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 310665,
+    "title": "Duskfade",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 11,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9nll.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 310733,
+    "title": "Dawn of Defense",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Strategy",
+      "Tactical",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobtpi.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 310761,
+    "title": "Lady Death Demonicron",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8l6o.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 312274,
+    "title": "The Eternal Life of Goldman",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "hype": 49,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coblro.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 312794,
+    "title": "The Enigma Cases",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8q8e.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 313597,
+    "title": "Silver Pines",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 24,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaxvl.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 313921,
+    "title": "CrisisX",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa9ik.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 314389,
+    "title": "Let's Build a Dungeon",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8plm.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 314449,
+    "title": "Hela",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 28,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coax99.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 314553,
+    "title": "Psycho Dead",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobvt1.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 315060,
+    "title": "Shadows of the Werewolf",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qva.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 315459,
+    "title": "Atre: Dominance Wars",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Simulator",
+      "Strategy"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8t20.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 317112,
+    "title": "Dragon's Brew",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Indie",
+      "Card & Board Game"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob7xl.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 317305,
+    "title": "The Depths of Despair",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaw86.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 317592,
+    "title": "Inazuma Eleven Re",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Sport"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8upm.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 317622,
+    "title": "ArcheAge Chronicles",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 28,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xgc.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 318349,
+    "title": "Entwine",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobo55.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 318359,
+    "title": "Hark the Ghoul",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 9,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaqvy.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 318503,
+    "title": "Lords of the Fallen II",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 54,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobc2z.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 318625,
+    "title": "Kernel Hearts",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9tun.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 318887,
+    "title": "My Arms Are Longer Now",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9u0b.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 319187,
+    "title": "Beyond Astra",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8wys.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 320052,
+    "title": "Rover's Tale",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobr1a.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 320972,
+    "title": "Steins;Gate Re:Boot",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Visual Novel"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co90no.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 321054,
+    "title": "Animal Use Protocol",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 12,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zro.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 321579,
+    "title": "Danchi Days",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co90ll.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 322158,
+    "title": "Active Matter",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Tactical"
+    ],
+    "hype": 37,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9r23.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 322690,
+    "title": "Don't Wake the Beast",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co92a1.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 322835,
+    "title": "Haunted by Femboy",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Visual Novel"
+    ],
+    "hype": 21,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa6o1.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 323959,
+    "title": "Scorched Warfare",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Hack and slash/Beat 'em up",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobwng.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 324887,
+    "title": "A Tiny Wander",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co94pe.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 324888,
+    "title": "Life of a Lonely Indie Game Developer",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co94pg.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 325282,
+    "title": "Feltopia",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co954f.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 325600,
+    "title": "Turok: Origins",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "hype": 31,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95g7.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 325602,
+    "title": "Onimusha: Way of the Sword",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "hype": 127,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobm4k.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 325707,
+    "title": "Deprision",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95me.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 325850,
+    "title": "Golf With Your Friends 2",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Sport",
+      "Indie"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobyw1.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 326325,
+    "title": "Vacation Cafe Simulator",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9iaq.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 326515,
+    "title": "Star Life",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Adventure"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co98in.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 326797,
+    "title": "Elflock",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co99t6.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 327508,
+    "title": "The Dropouts",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaqq6.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 329124,
+    "title": "Over the Hill",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Racing",
+      "Simulator",
+      "Sport",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 28,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9bpq.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 330566,
+    "title": "Liminal Point",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 17,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9d3n.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 331037,
+    "title": "Biofactory",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobqm3.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 331177,
+    "title": "Five Nights at Freddy's: Blood & Gears",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobfbl.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 331582,
+    "title": "The Lightkeeper is Gone",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9egt.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 333047,
+    "title": "RockBeasts",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9g3z.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 333201,
+    "title": "Edge of Memories",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)"
+    ],
+    "hype": 12,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9gem.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 334310,
+    "title": "Fate's Masquerade: Otome Visual Novel",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Indie",
+      "Visual Novel"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobiui.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 334698,
+    "title": "Lacey's Flash Games",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Visual Novel"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ia8.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 335047,
+    "title": "Rootbound",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ipn.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 335232,
+    "title": "Appulse",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Pinball",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9u83.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 335259,
+    "title": "Animas",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coafto.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 335684,
+    "title": "Phase Zero",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 15,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9jc9.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 336154,
+    "title": "Raev: Kingdom on the Distant Shores",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9k1f.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 336164,
+    "title": "Dark Mass",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 19,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9k1k.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 336526,
+    "title": "Melted Time",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9kko.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 338089,
+    "title": "Starseeker: Astroneer Expeditions",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 12,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc029.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 338324,
+    "title": "Drownlight",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coargk.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 338537,
+    "title": "Groda",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaoek.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 338923,
+    "title": "Okko the Exiled",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9myf.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 339619,
+    "title": "Ikuma: The Frozen Compass",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 21,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9nlg.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 339805,
+    "title": "Rain98",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ns6.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 339989,
+    "title": "Do Not Play",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9o5e.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 340113,
+    "title": "Star Wars Zero Company",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Tactical"
+    ],
+    "hype": 30,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9q5f.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 340334,
+    "title": "Dreadmoor",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 10,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ovg.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 340340,
+    "title": "Dicewood",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ojw.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 340587,
+    "title": "Slain 2: The Beast Within",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Hack and slash/Beat 'em up"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coad9q.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 341408,
+    "title": "Cozy Beach",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Sport",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa91e.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 341980,
+    "title": "Demon Bluff",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Strategy",
+      "Indie",
+      "Card & Board Game"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobxv9.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 342265,
+    "title": "The Shadow Syndicate",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Shooter",
+      "Puzzle",
+      "Tactical",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9rbr.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 342305,
+    "title": "Dodo Duckie",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa8if.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 342758,
+    "title": "Project; Virai: Doomer's Life Escape",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie",
+      "Visual Novel"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9rr1.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 342896,
+    "title": "Broken Relic",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa0m6.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 342991,
+    "title": "World of Dogs",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9skg.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 343697,
+    "title": "DreadOut 3",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 10,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coadah.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 344218,
+    "title": "Sea of Remnants",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Adventure"
+    ],
+    "hype": 27,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ww8.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 344466,
+    "title": "Transport Fever 3",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9u3u.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 344669,
+    "title": "Warhammer 40,000: Boltgun 2",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Shooter",
+      "Indie"
+    ],
+    "hype": 19,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9uam.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 345575,
+    "title": "HellSlave II: Judgment of the Archon",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Turn-based strategy (TBS)",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9vee.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 345852,
+    "title": "Tavern Talk Stories: Dreamwalker",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie",
+      "Visual Novel"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coabn2.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 346199,
+    "title": "Compress(Space)",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9vyd.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 347120,
+    "title": "Bloodstained: The Scarlet Engagement",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Platform",
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 26,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobgoe.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 347152,
+    "title": "Coming Home",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xff.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 347240,
+    "title": "Mexican Ninja",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Fighting",
+      "Hack and slash/Beat 'em up",
+      "Indie",
+      "Arcade"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coadam.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 347633,
+    "title": "Mortal Shell II",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 53,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xhg.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 347637,
+    "title": "End of Abyss",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 65,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xhm.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 347638,
+    "title": "Game of Thrones: War for Westeros",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Strategy"
+    ],
+    "hype": 34,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xgm.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 347645,
+    "title": "Out of Words",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "hype": 64,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xhn.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 347662,
+    "title": "Blighted",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 22,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xhc.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 347671,
+    "title": "Escape Academy 2: Back 2 School",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xhl.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 347841,
+    "title": "There Are No Ghosts at the Grand",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Music",
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 31,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xx1.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 347848,
+    "title": "Shadow Sacrament: The Roots of Evil",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xnv.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 347868,
+    "title": "No Straight Roads 2",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9y23.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 347900,
+    "title": "Dead Watch",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9y31.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 348047,
+    "title": "Wanderburg",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)"
+    ],
+    "hype": 17,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9y8m.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 348168,
+    "title": "Resonance: A Plague Tale Legacy",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 76,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xuo.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 348199,
+    "title": "Mudang: Two Hearts",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "hype": 54,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xzl.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 348202,
+    "title": "Aniimo",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 33,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaxyb.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 348205,
+    "title": "At Fate's End",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 18,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xwy.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 348286,
+    "title": "SkyRig",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xxv.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 348291,
+    "title": "Barotrauma: Home & Harbor",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xy2.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 348306,
+    "title": "Stars of Icarus",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xxm.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 348350,
+    "title": "Farmbotic",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coakz4.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 349336,
+    "title": "The Symbiant II",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9z8f.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 349433,
+    "title": "Postal 2 Redux",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9za8.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 350158,
+    "title": "Tuoni",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa04m.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 350402,
+    "title": "Age of Respair",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Simulator",
+      "Strategy"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coazph.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 350475,
+    "title": "Dungeon Raid",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Adventure",
+      "Indie",
+      "Card & Board Game"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coc038.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 351327,
+    "title": "DayZ: Badlands",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa1o0.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 352390,
+    "title": "Mirealle",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobo3y.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 353378,
+    "title": "Stories of Somnia",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa91t.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 354940,
+    "title": "Among Space",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa4mc.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 356552,
+    "title": "Clive Barker's Hellraiser: Revival",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 32,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa5o9.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 357100,
+    "title": "Black Vultures: Prey of Greed",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Strategy",
+      "Tactical"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa69h.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 357446,
+    "title": "My Femboy Roommate: Special Weekend",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie",
+      "Visual Novel"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaeg1.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 358766,
+    "title": "Gothic 3 Classic",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PS5"
+    ],
+    "genres": [],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa7pa.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 358807,
+    "title": "Starfinder: Afterlight",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Tactical",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa7pl.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 360075,
+    "title": "Well Dweller",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "genres": [
+      "Platform",
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa8qh.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 361428,
+    "title": "Clerks & Quirks",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coastf.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 361833,
+    "title": "Valor Mortis",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 52,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaazc.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 361840,
+    "title": "Road Kings",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure"
+    ],
+    "hype": 16,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaxo.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 361859,
+    "title": "Warhammer 40,000: Dawn of War IV",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Strategy"
+    ],
+    "hype": 23,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaxx.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 362040,
+    "title": "Tropico 7",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "hype": 9,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab61.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 362063,
+    "title": "Hell Let Loose: Vietnam",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Strategy"
+    ],
+    "hype": 9,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab73.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 362075,
+    "title": "BPM: Bitcrushed",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab81.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 362089,
+    "title": "Crushed in Time",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coafof.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 363898,
+    "title": "Entropy",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Tactical",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coacu2.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 364175,
+    "title": "Project Evilbane",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)"
+    ],
+    "hype": 10,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coajow.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 365094,
+    "title": "Tiny Shop",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coafgb.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 366895,
+    "title": "Danganronpa 2x2",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure",
+      "Visual Novel"
+    ],
+    "hype": 14,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coag5k.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 367331,
+    "title": "Eggspedition",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coagqu.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 368311,
+    "title": "Arkheron",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "MOBA"
+    ],
+    "hype": 10,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaioi.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 369843,
+    "title": "Demi and the Fractured Dream",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coajoq.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 369991,
+    "title": "Dynasty Warriors 3: Complete Edition Remastered",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Tactical",
+      "Hack and slash/Beat 'em up"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coajzb.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 369997,
+    "title": "Chronoscript: The Endless End",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 10,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coajy0.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 370708,
+    "title": "BrokenLore: Don't Lie",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Adventure"
+    ],
+    "hype": 8,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coakzn.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 370711,
+    "title": "Parasite Mutant",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob2so.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 370723,
+    "title": "Join Us",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Adventure"
+    ],
+    "hype": 5,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coakyl.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 371311,
+    "title": "Steel Artery: Train City Builder",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coam09.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 372154,
+    "title": "Bellum",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Strategy",
+      "Tactical",
+      "Indie"
+    ],
+    "hype": 24,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coan5y.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 372335,
+    "title": "Broken Sword: The Smoking Mirror - Reforged",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Point-and-click",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coancc.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 373749,
+    "title": "My Eerie Lair",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobrzp.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 373878,
+    "title": "Contact Protocol",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Simulator",
+      "Strategy",
+      "Tactical",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobs96.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 375096,
+    "title": "Dumb Ways to Party",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaqqm.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 375232,
+    "title": "Halo: Campaign Evolved",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "hype": 26,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaqxe.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 375516,
+    "title": "Ungodly",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coasjj.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 375637,
+    "title": "Object Impermanence",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1li.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 376145,
+    "title": "Warhammer Survivors",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Indie"
+    ],
+    "hype": 9,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coasoa.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 376950,
+    "title": "Donut Panic",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobrck.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 377235,
+    "title": "BrokenLore: Ascend",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coau0q.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 377768,
+    "title": "Cicadamata\"",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Indie"
+    ],
+    "hype": 2,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaulm.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 377917,
+    "title": "Iron Nest: Heavy Turret Simulator",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaupt.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 378225,
+    "title": "Armatus",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "hype": 14,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coave0.jpg",
+    "color": "coral"
+  },
+  {
+    "id": 378896,
+    "title": "Lost Host",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob3bs.jpg",
+    "color": "purple"
+  },
+  {
+    "id": 379140,
+    "title": "Sublustrum",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 6,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coawh1.jpg",
+    "color": "amber"
+  },
+  {
+    "id": 380409,
+    "title": "Neath",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coay6b.jpg",
+    "color": "pink"
+  },
+  {
+    "id": 380416,
+    "title": "Rivage",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 7,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coay6k.jpg",
+    "color": "blue"
+  },
+  {
+    "id": 380425,
+    "title": "Dungeons of Dusk",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)"
+    ],
+    "hype": 4,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coay76.jpg",
+    "color": "teal"
+  },
+  {
+    "id": 380440,
+    "title": "Inkblood",
+    "releaseDate": "2026-12-31",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 3,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coay9l.jpg",
+    "color": "coral"
   }
 ]
