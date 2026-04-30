@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "title": "Subnautica 2",
+    "releaseDate": "2026-05-14",
+    "price": "30 €",
+    "platforms": ["PC", "Xbox"],
+    "genres": ["Survival", "Avventura"],
+    "hype": 94,
+    "color": "teal",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "On the Rocks",
+    "releaseDate": "2026-05-22",
+    "price": "19,99 €",
+    "platforms": ["PC"],
+    "genres": ["Survival", "Indie", "Gestionale"],
+    "hype": 88,
+    "color": "coral"
+  },
+  {
+    "id": 3,
+    "title": "Ground Zero Hero",
+    "releaseDate": "2026-05-28",
+    "price": "14,99 €",
+    "platforms": ["PC", "Switch"],
+    "genres": ["Roguelike", "Indie"],
+    "hype": 82,
+    "color": "purple"
+  },
+  {
+    "id": 4,
+    "title": "NBA: The Run",
+    "releaseDate": "2026-06-05",
+    "price": "39,99 €",
+    "platforms": ["PC", "PS5", "Xbox"],
+    "genres": ["Sport"],
+    "hype": 76,
+    "color": "amber",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "title": "Resonance: A Plague Tale Legacy",
+    "releaseDate": "2026-06-18",
+    "price": "49,99 €",
+    "platforms": ["PC", "PS5", "Xbox"],
+    "genres": ["Avventura", "Stealth"],
+    "hype": 91,
+    "color": "pink"
+  },
+  {
+    "id": 6,
+    "title": "Echo Drift",
+    "releaseDate": "2026-06-21",
+    "price": "24,99 €",
+    "platforms": ["PC", "PS5"],
+    "genres": ["RPG", "Indie"],
+    "hype": 68,
+    "color": "purple"
+  },
+  {
+    "id": 7,
+    "title": "Forge of Kings",
+    "releaseDate": "2026-06-23",
+    "price": "44,99 €",
+    "platforms": ["PC"],
+    "genres": ["Strategia", "Gestionale"],
+    "hype": 72,
+    "color": "amber"
+  },
+  {
+    "id": 8,
+    "title": "Tide & Tales",
+    "releaseDate": "2026-06-25",
+    "price": "19,99 €",
+    "platforms": ["PC", "Switch"],
+    "genres": ["Indie", "Avventura"],
+    "hype": 65,
+    "color": "teal"
+  },
+  {
+    "id": 9,
+    "title": "Crimson Vow",
+    "releaseDate": "2026-06-28",
+    "price": "34,99 €",
+    "platforms": ["PC", "PS5"],
+    "genres": ["RPG", "Action"],
+    "hype": 79,
+    "color": "coral"
+  },
+  {
+    "id": 10,
+    "title": "Injustice 3",
+    "releaseDate": "2026-07-10",
+    "price": "59,99 €",
+    "platforms": ["PC", "PS5", "Xbox"],
+    "genres": ["Picchiaduro"],
+    "hype": 71,
+    "color": "blue",
+    "featured": true
+  },
+  {
+    "id": 11,
+    "title": "Hollow Reign",
+    "releaseDate": "2026-07-15",
+    "price": "29,99 €",
+    "platforms": ["PC", "PS5", "Xbox", "Switch"],
+    "genres": ["RPG", "Indie"],
+    "hype": 84,
+    "color": "purple"
+  },
+  {
+    "id": 12,
+    "title": "Stellar Convoy",
+    "releaseDate": "2026-07-22",
+    "price": "39,99 €",
+    "platforms": ["PC"],
+    "genres": ["Strategia", "Sci-fi"],
+    "hype": 67,
+    "color": "blue"
+  },
+  {
+    "id": 13,
+    "title": "Wraithfall",
+    "releaseDate": "2026-07-28",
+    "price": "49,99 €",
+    "platforms": ["PC", "PS5", "Xbox"],
+    "genres": ["Action", "Horror"],
+    "hype": 73,
+    "color": "pink"
+  },
+  {
+    "id": 14,
+    "title": "Pocket Empires",
+    "releaseDate": "2026-08-05",
+    "price": "14,99 €",
+    "platforms": ["PC", "Switch"],
+    "genres": ["Strategia", "Indie"],
+    "hype": 62,
+    "color": "amber"
+  },
+  {
+    "id": 15,
+    "title": "Nightline",
+    "releaseDate": "2026-08-12",
+    "price": "24,99 €",
+    "platforms": ["PC"],
+    "genres": ["Avventura", "Narrativa"],
+    "hype": 70,
+    "color": "blue"
+  }
+]

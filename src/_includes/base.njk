@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title or "Game Calendar - Prossime uscite videogiochi" }}</title>
+  <meta name="description" content="Calendario delle uscite videogiochi su PC, PS5, Xbox e Switch. Aggiornato automaticamente.">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="logo">
+        <span class="logo-mark">▸</span>
+        <span>Game Calendar</span>
+      </a>
+      <nav>
+        <a href="/">Calendario</a>
+        <a href="/about/">Info</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Aggiornato automaticamente · Dati da IGDB · <a href="/about/">Come funziona</a></p>
+    </div>
+  </footer>
+</body>
+</html>

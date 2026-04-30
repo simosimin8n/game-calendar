@@ -1,0 +1,132 @@
+{
+  "name": "Game Calendar – IGDB Sync",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [{ "field": "hours", "hoursInterval": 6 }]
+        }
+      },
+      "id": "node-schedule",
+      "name": "Every 6 Hours",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [260, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://id.twitch.tv/oauth2/token",
+        "sendBody": true,
+        "contentType": "form-urlencoded",
+        "bodyParameters": {
+          "parameters": [
+            { "name": "client_id",     "value": "={{ $vars.TWITCH_CLIENT_ID }}" },
+            { "name": "client_secret", "value": "={{ $vars.TWITCH_CLIENT_SECRET }}" },
+            { "name": "grant_type",    "value": "client_credentials" }
+          ]
+        }
+      },
+      "id": "node-twitch-token",
+      "name": "Get IGDB Token",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [480, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.igdb.com/v4/games",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Client-ID",     "value": "={{ $vars.TWITCH_CLIENT_ID }}" },
+            { "name": "Authorization", "value": "={{ 'Bearer ' + $('Get IGDB Token').item.json.access_token }}" }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "text/plain",
+        "body": "=fields name, first_release_date, hypes, platforms.id, platforms.name, genres.name, cover.url; where first_release_date > {{ Math.floor(Date.now()/1000) }} & first_release_date < {{ Math.floor(Date.now()/1000) + 7776000 }} & platforms = (6,130,167,169) & version_parent = null; sort first_release_date asc; limit 50;"
+      },
+      "id": "node-igdb-query",
+      "name": "Query IGDB Games",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [700, 300]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const COLORS = ['teal', 'coral', 'purple', 'amber', 'pink', 'blue'];\nconst PLATFORM_MAP = { 6: 'PC', 130: 'Switch', 167: 'PS5', 169: 'Xbox' };\n\n// IGDB returns the array as one item or split – handle both\nconst raw = $input.first().json;\nconst list = Array.isArray(raw) ? raw : $input.all().map(i => i.json);\n\nconst games = list.map((game, i) => {\n  const ts = game.first_release_date;\n  const d  = new Date(ts * 1000);\n  const releaseDate = d.toISOString().split('T')[0];\n\n  const platforms = (game.platforms || [])\n    .map(p => PLATFORM_MAP[p.id])\n    .filter(Boolean);\n\n  const genres = (game.genres || []).map(g => g.name);\n\n  let cover = null;\n  if (game.cover?.url) {\n    cover = game.cover.url\n      .replace('t_thumb', 't_cover_big')\n      .replace(/^\\/\\//, 'https://');\n  }\n\n  return {\n    id:          game.id,\n    title:       game.name,\n    releaseDate,\n    price:       'TBD',\n    platforms,\n    genres,\n    hype:        game.hypes || 0,\n    cover,\n    color:       COLORS[i % COLORS.length]\n  };\n});\n\nreturn [{ json: { games } }];"
+      },
+      "id": "node-normalize",
+      "name": "Normalize Games",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [920, 300]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ 'https://api.github.com/repos/' + $vars.GITHUB_REPO + '/contents/src/_data/games.json' }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "={{ 'token ' + $vars.GITHUB_TOKEN }}" },
+            { "name": "Accept",        "value": "application/vnd.github.v3+json" }
+          ]
+        }
+      },
+      "id": "node-gh-get",
+      "name": "Get Current File SHA",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1140, 300]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const games   = $('Normalize Games').first().json.games;\nconst sha     = $('Get Current File SHA').first().json.sha;\nconst content = JSON.stringify(games, null, 2);\nconst encoded = Buffer.from(content).toString('base64');\n\nreturn [{\n  json: {\n    message: `chore: update games.json ${new Date().toISOString().slice(0,10)}`,\n    content: encoded,\n    sha\n  }\n}];"
+      },
+      "id": "node-gh-payload",
+      "name": "Build GitHub Payload",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1360, 300]
+    },
+    {
+      "parameters": {
+        "method": "PUT",
+        "url": "={{ 'https://api.github.com/repos/' + $vars.GITHUB_REPO + '/contents/src/_data/games.json' }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "={{ 'token ' + $vars.GITHUB_TOKEN }}" },
+            { "name": "Accept",        "value": "application/vnd.github.v3+json" },
+            { "name": "Content-Type",  "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}"
+      },
+      "id": "node-gh-put",
+      "name": "Update games.json on GitHub",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1580, 300]
+    }
+  ],
+  "connections": {
+    "Every 6 Hours":         { "main": [[{ "node": "Get IGDB Token",            "type": "main", "index": 0 }]] },
+    "Get IGDB Token":        { "main": [[{ "node": "Query IGDB Games",           "type": "main", "index": 0 }]] },
+    "Query IGDB Games":      { "main": [[{ "node": "Normalize Games",            "type": "main", "index": 0 }]] },
+    "Normalize Games":       { "main": [[{ "node": "Get Current File SHA",       "type": "main", "index": 0 }]] },
+    "Get Current File SHA":  { "main": [[{ "node": "Build GitHub Payload",       "type": "main", "index": 0 }]] },
+    "Build GitHub Payload":  { "main": [[{ "node": "Update games.json on GitHub","type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "tags": [],
+  "pinData": {}
+}

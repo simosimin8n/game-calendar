@@ -1,0 +1,189 @@
+---
+layout: base.njk
+title: Prossime uscite videogiochi
+---
+
+<section class="topbar">
+  <div class="container">
+    <div class="topbar-inner">
+      <div>
+        <p class="updated-tag">Aggiornato 4 ore fa · {{ games | length }} giochi</p>
+        <h1>Prossime uscite</h1>
+      </div>
+      <div class="search-sort">
+        <input type="text" id="search" placeholder="Cerca un gioco..." autocomplete="off">
+        <select id="sort">
+          <option value="date-asc">Data ↑</option>
+          <option value="date-desc">Data ↓</option>
+          <option value="hype">Più attesi</option>
+          <option value="price-asc">Prezzo ↑</option>
+          <option value="price-desc">Prezzo ↓</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="filters">
+      <div class="filter-group" data-filter-type="platform">
+        <button class="filter-btn active" data-value="all">Tutte</button>
+        <button class="filter-btn" data-value="PC">PC</button>
+        <button class="filter-btn" data-value="PS5">PS5</button>
+        <button class="filter-btn" data-value="Xbox">Xbox</button>
+        <button class="filter-btn" data-value="Switch">Switch</button>
+      </div>
+      <div class="filter-divider"></div>
+      <div class="filter-group" data-filter-type="genre">
+        <button class="filter-btn active" data-value="all">Tutti i generi</button>
+        {% for genre in games | allGenres %}
+          <button class="filter-btn" data-value="{{ genre }}">{{ genre }}</button>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container content">
+  <p id="empty-state" class="empty-state" style="display:none;">Nessun gioco trovato con questi filtri.</p>
+
+  {% for group in games | groupByMese %}
+    {% set hero = group.giochi | topHype %}
+    {% set rest = group.giochi | exceptId(hero.id) %}
+
+    <section class="month-section" data-month-block>
+      <div class="month-head">
+        <p class="month-label">{{ group.mese }}</p>
+        <p class="month-count">{{ group.giochi | length }} giochi</p>
+      </div>
+
+      <div class="month-grid">
+        <article class="card hero-card"
+                 data-platforms="{{ hero.platforms | join(',') }}"
+                 data-genres="{{ hero.genres | join(',') }}"
+                 data-title="{{ hero.title | lower }}"
+                 data-date="{{ hero.releaseDate }}"
+                 data-hype="{{ hero.hype }}"
+                 data-price="{{ hero.price }}">
+          <div class="cover cover-{{ hero.color }} cover-hero">
+            <div class="hype-badge">HYPE {{ hero.hype }}</div>
+            <div class="cover-title">{{ hero.title | upper }}</div>
+          </div>
+          <div class="card-body">
+            <h3>{{ hero.title }}</h3>
+            <p class="meta">{{ hero.releaseDate | dataIt }} · {{ hero.price }}</p>
+            <p class="genres">{{ hero.genres | join(' · ') }}</p>
+            <div class="badges">
+              {% for p in hero.platforms %}
+                <span class="badge badge-{{ p | lower }}">{{ p }}</span>
+              {% endfor %}
+            </div>
+          </div>
+        </article>
+
+        {% for game in rest %}
+          <article class="card medium-card"
+                   data-platforms="{{ game.platforms | join(',') }}"
+                   data-genres="{{ game.genres | join(',') }}"
+                   data-title="{{ game.title | lower }}"
+                   data-date="{{ game.releaseDate }}"
+                   data-hype="{{ game.hype }}"
+                   data-price="{{ game.price }}">
+            <div class="cover cover-{{ game.color }}">
+              <div class="hype-mini">{{ game.hype }}</div>
+            </div>
+            <div class="card-body">
+              <h3>{{ game.title }}</h3>
+              <p class="meta">{{ game.releaseDate | dataItShort }} · {{ game.price }}</p>
+              <div class="badges">
+                {% for p in game.platforms %}
+                  <span class="badge badge-{{ p | lower }}">{{ p }}</span>
+                {% endfor %}
+              </div>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+</div>
+
+<script>
+  const cards = document.querySelectorAll('.card');
+  const monthSections = document.querySelectorAll('[data-month-block]');
+  const searchInput = document.getElementById('search');
+  const sortSelect = document.getElementById('sort');
+  const emptyState = document.getElementById('empty-state');
+
+  const activeFilters = { platform: 'all', genre: 'all' };
+  let searchTerm = '';
+
+  function priceToNumber(p) {
+    if (!p) return Infinity;
+    const m = p.match(/[\d,]+/);
+    if (!m) return Infinity;
+    return parseFloat(m[0].replace(',', '.'));
+  }
+
+  function applyFilters() {
+    let visibleCount = 0;
+    cards.forEach(card => {
+      const platforms = card.dataset.platforms.split(',');
+      const genres = card.dataset.genres.split(',');
+      const title = card.dataset.title;
+
+      const platformOk = activeFilters.platform === 'all' || platforms.includes(activeFilters.platform);
+      const genreOk = activeFilters.genre === 'all' || genres.includes(activeFilters.genre);
+      const searchOk = !searchTerm || title.includes(searchTerm);
+
+      const visible = platformOk && genreOk && searchOk;
+      card.style.display = visible ? '' : 'none';
+      if (visible) visibleCount++;
+    });
+
+    // Nasconde i blocchi mese vuoti
+    monthSections.forEach(section => {
+      const visibleCards = section.querySelectorAll('.card:not([style*="display: none"])');
+      section.style.display = visibleCards.length > 0 ? '' : 'none';
+    });
+
+    emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
+  }
+
+  function applySort() {
+    const mode = sortSelect.value;
+    monthSections.forEach(section => {
+      const grid = section.querySelector('.month-grid');
+      const cardArr = [...grid.querySelectorAll('.card')];
+      cardArr.sort((a, b) => {
+        switch (mode) {
+          case 'date-asc':  return new Date(a.dataset.date) - new Date(b.dataset.date);
+          case 'date-desc': return new Date(b.dataset.date) - new Date(a.dataset.date);
+          case 'hype':      return parseInt(b.dataset.hype) - parseInt(a.dataset.hype);
+          case 'price-asc': return priceToNumber(a.dataset.price) - priceToNumber(b.dataset.price);
+          case 'price-desc':return priceToNumber(b.dataset.price) - priceToNumber(a.dataset.price);
+        }
+      });
+      cardArr.forEach(c => grid.appendChild(c));
+    });
+  }
+
+  // Filtri
+  document.querySelectorAll('.filter-group').forEach(group => {
+    const type = group.dataset.filterType;
+    group.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        group.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilters[type] = btn.dataset.value;
+        applyFilters();
+      });
+    });
+  });
+
+  // Ricerca
+  searchInput.addEventListener('input', e => {
+    searchTerm = e.target.value.toLowerCase().trim();
+    applyFilters();
+  });
+
+  // Sort
+  sortSelect.addEventListener('change', applySort);
+</script>
