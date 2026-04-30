@@ -35,6 +35,11 @@ module.exports = function (eleventyConfig) {
     return Array.from(map, ([month, games]) => ({ month, games }));
   });
 
+  // top N games by hype across the whole list
+  eleventyConfig.addFilter("topN", (games, n) =>
+    [...games].sort((a, b) => (b.hype || 0) - (a.hype || 0)).slice(0, n)
+  );
+
   eleventyConfig.addFilter("topHype", (games) => {
     if (!games || games.length === 0) return null;
     return [...games].sort((a, b) => (b.hype || 0) - (a.hype || 0))[0];
