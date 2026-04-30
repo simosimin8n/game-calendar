@@ -31,6 +31,10 @@ async function get(endpoint, params = {}) {
   url.searchParams.set('key', KEY);
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
   const res = await fetch(url.toString());
+  if (res.status === 401 || res.status === 403) {
+    console.warn('⚠️  ITAD key invalid or expired — skipping price fetch.');
+    process.exit(0);
+  }
   if (!res.ok) throw new Error(`GET ${endpoint}: ${res.status} ${await res.text()}`);
   return res.json();
 }
