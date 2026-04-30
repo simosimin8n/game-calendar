@@ -34,9 +34,13 @@ title: Upcoming Game Releases
       <div class="filter-group" data-filter-type="genre">
         <button class="filter-btn active" data-value="all">All genres</button>
         {% for genre in games | allGenres %}
-          <button class="filter-btn" data-value="{{ genre }}">{{ genre }}</button>
+          {% if genre !== 'Indie' %}
+            <button class="filter-btn" data-value="{{ genre }}">{{ genre }}</button>
+          {% endif %}
         {% endfor %}
       </div>
+      <div class="filter-divider"></div>
+      <button class="filter-btn indie-toggle" id="indie-toggle">+ Indie</button>
     </div>
   </div>
 </section>
@@ -46,18 +50,21 @@ title: Upcoming Game Releases
     <div class="hot-head">
       <span class="hot-tag">HOT</span>
       <h2>Most Anticipated</h2>
+      <div class="hot-nav">
+        <button class="hot-nav-btn" id="hot-prev">&#8249;</button>
+        <button class="hot-nav-btn" id="hot-next">&#8250;</button>
+      </div>
     </div>
-    {% for group in games | topPerMonth(3) %}
-    <div class="hot-month-block">
-      <p class="hot-month-label">{{ group.month }}</p>
-      <div class="hot-grid">
+    <div class="hot-slider" id="hot-slider">
+      {% for group in games | topPerMonth(5) %}
         {% for game in group.games %}
-          <a href="/games/{{ game.slug }}/" class="card-link">
+          <a href="/games/{{ game.slug }}/" class="card-link hot-slide">
             <article class="card hot-card">
               <div class="cover cover-{{ game.color }} cover-hot">
                 {% if game.cover %}<img src="{{ game.cover }}" alt="{{ game.title }}" class="cover-img">{% endif %}
                 <span class="rank-badge rank-{{ loop.index }}">{{ loop.index }}</span>
                 <span class="hot-hype">{{ game.hype }}</span>
+                <span class="hot-month-chip">{{ group.month }}</span>
               </div>
               <div class="card-body">
                 <h3>{{ game.title }}</h3>
@@ -72,9 +79,8 @@ title: Upcoming Game Releases
             </article>
           </a>
         {% endfor %}
-      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </section>
 
@@ -157,6 +163,7 @@ title: Upcoming Game Releases
 
   const activeFilters = { platform: 'all', genre: 'all' };
   let searchTerm = '';
+  let showIndie = false; // hidden by default
 
   function priceToNumber(p) {
     if (!p || p === 'TBD') return Infinity;
@@ -175,8 +182,9 @@ title: Upcoming Game Releases
       const platformOk = activeFilters.platform === 'all' || platforms.includes(activeFilters.platform);
       const genreOk = activeFilters.genre === 'all' || genres.includes(activeFilters.genre);
       const searchOk = !searchTerm || title.includes(searchTerm);
+      const indieOk = showIndie || !genres.includes('Indie');
 
-      const visible = platformOk && genreOk && searchOk;
+      const visible = platformOk && genreOk && searchOk && indieOk;
       card.closest('a').style.display = visible ? 'block' : 'none';
       if (visible) visibleCount++;
     });
@@ -184,11 +192,6 @@ title: Upcoming Game Releases
     monthSections.forEach(section => {
       const visibleCards = section.querySelectorAll('a:not([style*="display: none"]) .card');
       section.style.display = visibleCards.length > 0 ? '' : 'none';
-    });
-
-    document.querySelectorAll('.hot-month-block').forEach(block => {
-      const hasVisible = [...block.querySelectorAll('a')].some(a => a.style.display !== 'none');
-      block.style.display = hasVisible ? '' : 'none';
     });
 
     emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
@@ -214,6 +217,7 @@ title: Upcoming Game Releases
     });
   }
 
+  // platform + genre filter groups
   document.querySelectorAll('.filter-group').forEach(group => {
     const type = group.dataset.filterType;
     group.querySelectorAll('.filter-btn').forEach(btn => {
@@ -226,10 +230,30 @@ title: Upcoming Game Releases
     });
   });
 
+  // indie toggle
+  document.getElementById('indie-toggle').addEventListener('click', function() {
+    showIndie = !showIndie;
+    this.classList.toggle('active', showIndie);
+    this.textContent = showIndie ? '✓ Indie' : '+ Indie';
+    applyFilters();
+  });
+
+  // hot slider nav
+  const sliderEl = document.getElementById('hot-slider');
+  document.getElementById('hot-prev').addEventListener('click', () => {
+    sliderEl.scrollBy({ left: -284, behavior: 'smooth' });
+  });
+  document.getElementById('hot-next').addEventListener('click', () => {
+    sliderEl.scrollBy({ left: 284, behavior: 'smooth' });
+  });
+
   searchInput.addEventListener('input', e => {
     searchTerm = e.target.value.toLowerCase().trim();
     applyFilters();
   });
 
   sortSelect.addEventListener('change', applySort);
+
+  // apply indie filter on initial load
+  applyFilters();
 </script>
