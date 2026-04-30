@@ -4,3 +4,10 @@ _site/
 *.zip
 game-calendar/
 game-calendar-v2-files/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
