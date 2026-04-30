@@ -92,7 +92,7 @@ title: Upcoming Game Releases
       </div>
 
       <div class="month-grid">
-        <a href="/games/{{ hero.slug }}/" class="card-link">
+        <a href="/games/{{ hero.slug }}/" class="card-link hero-link">
           <article class="card hero-card"
                    data-platforms="{{ hero.platforms | join(',') }}"
                    data-genres="{{ hero.genres | join(',') }}"
@@ -149,7 +149,7 @@ title: Upcoming Game Releases
 </div>
 
 <script>
-  const cards = document.querySelectorAll('.card');
+  const cards = document.querySelectorAll('.hero-card, .medium-card');
   const monthSections = document.querySelectorAll('[data-month-block]');
   const searchInput = document.getElementById('search');
   const sortSelect = document.getElementById('sort');

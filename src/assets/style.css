@@ -271,7 +271,7 @@ main { flex: 1; }
   gap: 12px;
   align-items: start;
 }
-.hero-card { grid-column: span 2; }
+.hero-link { grid-column: span 2; }
 /* prevent medium cards from stretching to hero row height */
 .month-grid > a { height: auto; }
 .month-grid .card { height: auto; }
