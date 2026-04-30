@@ -1,0 +1,223 @@
+---
+layout: base.njk
+pagination:
+  data: games
+  size: 1
+  alias: game
+permalink: "/games/{{ game.slug }}/"
+eleventyComputed:
+  title: "{{ game.title }} — Game Calendar"
+---
+
+<div class="game-detail">
+
+  <div class="game-hero cover-{{ game.color }}">
+    {% if game.cover %}<img src="{{ game.cover }}" alt="{{ game.title }}" class="cover-img">{% endif %}
+    <div class="game-hero-content container">
+      <a href="/" class="back-btn">← All games</a>
+      <div class="game-hero-info">
+        <h1>{{ game.title }}</h1>
+        <p class="game-hero-meta">{{ game.releaseDate | dateFormat }} · {{ game.price }}</p>
+        <div class="badges">
+          {% for p in game.platforms %}
+            <span class="badge badge-{{ p | lower }}">{{ p }}</span>
+          {% endfor %}
+          {% if game.hype %}
+            <span class="hype-badge">HYPE {{ game.hype }}</span>
+          {% endif %}
+        </div>
+      </div>
+      {% if game.url %}
+        <a href="{{ game.url }}" target="_blank" rel="noopener" class="igdb-btn">IGDB ↗</a>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="container game-detail-body">
+
+    <div class="game-detail-main">
+
+      {% if game.summary %}
+      <section class="detail-section">
+        <h2 class="detail-heading">About</h2>
+        <p class="game-summary">{{ game.summary }}</p>
+      </section>
+      {% endif %}
+
+      {% if game.similarGames and game.similarGames.length %}
+      <section class="detail-section">
+        <h2 class="detail-heading">Similar Games</h2>
+        <div class="similar-grid">
+          {% set simColors = ['teal', 'coral', 'purple', 'amber', 'pink', 'blue'] %}
+          {% for sg in game.similarGames %}
+          <div class="similar-card cover-{{ simColors[loop.index0 % 6] }}">
+            <div class="similar-card-inner">
+              <p class="similar-card-name">{{ sg.name }}</p>
+              <p class="similar-card-meta">
+                {% if sg.genres and sg.genres.length %}{{ sg.genres[0] }}{% endif %}
+                {% if sg.rating %} · {{ sg.rating }}{% endif %}
+              </p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+
+    </div>
+
+    <aside class="game-detail-sidebar">
+
+      <section class="detail-section">
+        <dl class="metadata-list">
+          {% if game.developers and game.developers.length %}
+          <div class="meta-row">
+            <dt>{{ "Developers" if game.developers.length > 1 else "Developer" }}</dt>
+            <dd>{{ game.developers | join(', ') }}</dd>
+          </div>
+          {% endif %}
+          {% if game.publishers and game.publishers.length %}
+          <div class="meta-row">
+            <dt>Publisher</dt>
+            <dd>{{ game.publishers | join(', ') }}</dd>
+          </div>
+          {% endif %}
+          {% if game.genres and game.genres.length %}
+          <div class="meta-row">
+            <dt>Genres</dt>
+            <dd>{{ game.genres | join(', ') }}</dd>
+          </div>
+          {% endif %}
+          {% if game.themes and game.themes.length %}
+          <div class="meta-row">
+            <dt>Themes</dt>
+            <dd>{{ game.themes | join(', ') }}</dd>
+          </div>
+          {% endif %}
+          {% if game.gameModes and game.gameModes.length %}
+          <div class="meta-row">
+            <dt>Game Modes</dt>
+            <dd>{{ game.gameModes | join(', ') }}</dd>
+          </div>
+          {% endif %}
+          {% if game.playerPerspectives and game.playerPerspectives.length %}
+          <div class="meta-row">
+            <dt>Perspective</dt>
+            <dd>{{ game.playerPerspectives | join(', ') }}</dd>
+          </div>
+          {% endif %}
+          {% if game.collections and game.collections.length %}
+          <div class="meta-row">
+            <dt>Series</dt>
+            <dd>{{ game.collections | join(', ') }}</dd>
+          </div>
+          {% endif %}
+          {% if game.franchises and game.franchises.length %}
+          <div class="meta-row">
+            <dt>Franchise</dt>
+            <dd>{{ game.franchises | join(', ') }}</dd>
+          </div>
+          {% endif %}
+          {% if game.engine and game.engine.length %}
+          <div class="meta-row">
+            <dt>Engine</dt>
+            <dd>{{ game.engine | join(', ') }}</dd>
+          </div>
+          {% endif %}
+          {% if game.alternativeNames and game.alternativeNames.length %}
+          <div class="meta-row">
+            <dt>Also known as</dt>
+            <dd>{{ game.alternativeNames | join(', ') }}</dd>
+          </div>
+          {% endif %}
+          <div class="meta-row">
+            <dt>IGDB ID</dt>
+            <dd class="meta-faint">{{ game.id }}</dd>
+          </div>
+        </dl>
+      </section>
+
+      {% if game.releases and game.releases.length %}
+      <section class="detail-section">
+        <h3 class="detail-label">Releases</h3>
+        <ul class="releases-list">
+          {% for r in game.releases %}
+          <li class="release-item">
+            <span class="release-platform">{{ r.platform }}</span>
+            <span class="release-date">{{ r.date }}</span>
+            {% if r.region and r.region !== 'Worldwide' %}
+              <span class="release-region">{{ r.region }}</span>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endif %}
+
+      {% if game.websites and game.websites.length %}
+      <section class="detail-section">
+        <h3 class="detail-label">Links</h3>
+        <div class="website-links">
+          {% for w in game.websites %}
+          <a href="{{ w.url }}" target="_blank" rel="noopener" class="website-btn">
+            {% if w.type === 'official' %}Official Site
+            {% elif w.type === 'steam' %}Steam
+            {% elif w.type === 'epic' %}Epic Games
+            {% elif w.type === 'gog' %}GOG
+            {% elif w.type === 'wikipedia' %}Wikipedia
+            {% elif w.type === 'twitter' %}Twitter / X
+            {% elif w.type === 'facebook' %}Facebook
+            {% elif w.type === 'reddit' %}Reddit
+            {% elif w.type === 'discord' %}Discord
+            {% else %}{{ w.type }}
+            {% endif %}
+          </a>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+
+      {% if game.ageRatings and game.ageRatings.length %}
+      <section class="detail-section">
+        <h3 class="detail-label">Age Ratings</h3>
+        <div class="age-ratings">
+          {% for r in game.ageRatings %}
+          <div class="age-badge">
+            <span class="age-system">{{ r.system }}</span>
+            <span class="age-value">{{ r.rating }}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+
+      {% if game.languageSupports and game.languageSupports.length %}
+      <section class="detail-section">
+        <h3 class="detail-label">Languages</h3>
+        <table class="lang-table">
+          <thead>
+            <tr>
+              <th>Language</th>
+              <th title="Audio">🔊</th>
+              <th title="Subtitles">💬</th>
+              <th title="Interface">🖥</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for ls in game.languageSupports %}
+            <tr>
+              <td>{{ ls.language }}</td>
+              <td>{% if ls.audio %}✓{% endif %}</td>
+              <td>{% if ls.subtitles %}✓{% endif %}</td>
+              <td>{% if ls.interface %}✓{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </section>
+      {% endif %}
+
+    </aside>
+
+  </div>
+</div>

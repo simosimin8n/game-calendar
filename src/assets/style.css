@@ -415,6 +415,226 @@ main { flex: 1; }
 .badge-xbox   { background: #142b1c; color: #86efac; }
 .badge-switch { background: #3f1515; color: #fca5a5; }
 
+/* ── GAME DETAIL ─────────────────────────────── */
+.game-hero {
+  position: relative;
+  min-height: 320px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.game-hero .cover-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  z-index: 0;
+}
+.game-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(9,13,18,0.96) 0%, rgba(9,13,18,0.6) 45%, rgba(9,13,18,0.25) 100%);
+  z-index: 1;
+}
+.game-hero-content {
+  position: relative;
+  z-index: 2;
+  padding-top: 2rem;
+  padding-bottom: 2.25rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+.back-btn {
+  position: absolute;
+  top: 0;
+  left: 1.5rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: color 0.15s;
+  padding: 0.5rem 0;
+}
+.back-btn:hover { color: var(--text); }
+.game-hero-info { flex: 1; }
+.game-hero-info h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  margin-bottom: 0.5rem;
+}
+.game-hero-meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+.game-hero .hype-badge {
+  position: static;
+  display: inline-block;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(6px);
+}
+.igdb-btn {
+  flex-shrink: 0;
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  transition: all 0.15s;
+  background: rgba(9,13,18,0.5);
+  backdrop-filter: blur(6px);
+  align-self: flex-end;
+}
+.igdb-btn:hover { color: var(--text); border-color: var(--accent); }
+
+.game-detail-body {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .game-detail-body { grid-template-columns: 1fr; }
+}
+
+.detail-section { margin-bottom: 2.25rem; }
+.detail-heading {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.75rem;
+  color: var(--text);
+}
+.detail-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-faint);
+  margin-bottom: 0.6rem;
+}
+.game-summary {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.75;
+}
+
+.metadata-list {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.meta-row {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 0.5rem;
+  padding: 0.55rem 0.9rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.8rem;
+}
+.meta-row:last-child { border-bottom: none; }
+.meta-row dt { color: var(--text-faint); font-weight: 500; }
+.meta-row dd { color: var(--text); }
+.meta-faint { color: var(--text-faint); }
+
+.releases-list { list-style: none; }
+.release-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: baseline;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.8rem;
+}
+.release-item:last-child { border-bottom: none; }
+.release-platform { color: var(--text); font-weight: 600; flex: 1; min-width: 130px; }
+.release-date { color: var(--text-muted); }
+.release-region { color: var(--text-faint); font-size: 0.72rem; }
+
+.website-links { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.website-btn {
+  display: inline-block;
+  padding: 0.32rem 0.7rem;
+  border-radius: 5px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  text-decoration: none;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: border-color 0.15s, color 0.15s;
+}
+.website-btn:hover { border-color: var(--accent); color: var(--accent-light); }
+
+.age-ratings { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.age-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+  min-width: 56px;
+}
+.age-system { font-size: 0.6rem; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; }
+.age-value { font-size: 1.05rem; font-weight: 800; color: var(--text); }
+
+.lang-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+.lang-table th, .lang-table td {
+  padding: 0.42rem 0.4rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+.lang-table th { color: var(--text-faint); font-weight: 600; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; }
+.lang-table td { color: var(--text-muted); }
+.lang-table td:not(:first-child) { text-align: center; color: var(--accent-light); }
+.lang-table tr:last-child td { border-bottom: none; }
+
+.similar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.6rem;
+}
+.similar-card {
+  border-radius: 7px;
+  min-height: 72px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  position: relative;
+}
+.similar-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 60%);
+}
+.similar-card-inner {
+  position: relative;
+  z-index: 1;
+  padding: 0.55rem 0.65rem;
+}
+.similar-card-name { font-size: 0.78rem; font-weight: 700; line-height: 1.25; }
+.similar-card-meta { font-size: 0.67rem; color: rgba(255,255,255,0.6); margin-top: 0.15rem; }
+
 /* ── ABOUT ───────────────────────────────────── */
 .page { max-width: 680px; margin: 1rem auto; }
 .page h1 { font-size: 1.9rem; font-weight: 800; margin-bottom: 1rem; letter-spacing: -0.03em; }

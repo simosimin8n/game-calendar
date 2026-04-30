@@ -49,7 +49,7 @@ title: Upcoming Game Releases
     </div>
     <div class="hot-grid">
       {% for game in games | topN(3) %}
-        <a href="{{ game.url or 'https://www.igdb.com' }}" target="_blank" rel="noopener" class="card-link">
+        <a href="/games/{{ game.slug }}/" class="card-link">
           <article class="card hot-card">
             <div class="cover cover-{{ game.color }} cover-hot">
               {% if game.cover %}<img src="{{ game.cover }}" alt="{{ game.title }}" class="cover-img">{% endif %}
@@ -87,7 +87,7 @@ title: Upcoming Game Releases
       </div>
 
       <div class="month-grid">
-        <a href="{{ hero.url or 'https://www.igdb.com' }}" target="_blank" rel="noopener" class="card-link">
+        <a href="/games/{{ hero.slug }}/" class="card-link">
           <article class="card hero-card"
                    data-platforms="{{ hero.platforms | join(',') }}"
                    data-genres="{{ hero.genres | join(',') }}"
@@ -114,7 +114,7 @@ title: Upcoming Game Releases
         </a>
 
         {% for game in rest %}
-          <a href="{{ game.url or 'https://www.igdb.com' }}" target="_blank" rel="noopener" class="card-link">
+          <a href="/games/{{ game.slug }}/" class="card-link">
             <article class="card medium-card"
                      data-platforms="{{ game.platforms | join(',') }}"
                      data-genres="{{ game.genres | join(',') }}"
