@@ -253,9 +253,11 @@ main { flex: 1; }
 
 /* hot cards are horizontal rows */
 .hot-card { flex-direction: row; height: 88px; }
-.cover-hot { width: 66px; height: 88px; flex-shrink: 0; padding: 0; }
-.hot-card .card-body { flex: 1; padding: 0.65rem 0.85rem; display: flex; flex-direction: column; justify-content: center; min-width: 0; overflow: hidden; }
-.hot-card .card-body h3 { font-size: 0.88rem; white-space: nowrap; margin-bottom: 0.2rem; }
+.hot-card .cover-hot { flex: 0 0 66px; width: 66px; height: 88px; padding: 0; }
+.hot-card .card-body { flex: 1 1 0%; min-width: 0; padding: 0.6rem 0.85rem; display: flex; flex-direction: column; justify-content: center; color: var(--text); }
+.hot-card .card-body h3 { font-size: 0.85rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 0.2rem; }
+.hot-card .card-body .meta { font-size: 0.7rem; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hot-card .card-body .badges { display: flex; gap: 3px; flex-wrap: nowrap; overflow: hidden; }
 .hot-month-chip { display: none; }
 .rank-badge {
   position: absolute;
