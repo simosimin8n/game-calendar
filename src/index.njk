@@ -16,8 +16,6 @@ title: Upcoming Game Releases
           <option value="date-asc">Date ↑</option>
           <option value="date-desc">Date ↓</option>
           <option value="hype">Most Hyped</option>
-          <option value="price-asc">Price ↑</option>
-          <option value="price-desc">Price ↓</option>
         </select>
       </div>
     </div>
@@ -88,61 +86,20 @@ title: Upcoming Game Releases
   <p id="empty-state" class="empty-state" style="display:none;">No games found with these filters.</p>
 
   {% for group in games | groupByMonth %}
-    {% set hero = group.games | topHype %}
-    {% set rest = group.games | exceptId(hero.id) %}
-
     <section class="month-section" data-month-block>
       <div class="month-head">
         <p class="month-label">{{ group.month }}</p>
         <p class="month-count">{{ group.games | length }} games</p>
       </div>
-
       <div class="month-grid">
-        <a href="/games/{{ hero.slug }}/" class="card-link hero-link">
-          <article class="card hero-card"
-                   data-platforms="{{ hero.platforms | join(',') }}"
-                   data-genres="{{ hero.genres | join(',') }}"
-                   data-title="{{ hero.title | lower }}"
-                   data-date="{{ hero.releaseDate }}"
-                   data-hype="{{ hero.hype }}"
-                   data-price="{{ hero.price }}">
-            <div class="cover cover-{{ hero.color }} cover-hero">
-              {% if hero.cover %}<img src="{{ hero.cover }}" alt="{{ hero.title }}" class="cover-img">{% endif %}
-              <div class="hype-badge">HYPE {{ hero.hype }}</div>
-              {% if not hero.cover %}<div class="cover-title">{{ hero.title | upper }}</div>{% endif %}
-            </div>
-            <div class="card-body">
-              <h3>{{ hero.title }}</h3>
-              <p class="meta">{{ hero.releaseDate | dateFormat }}</p>
-              <p class="genres">{{ hero.genres | join(' · ') }}</p>
-              <div class="card-footer">
-                <div class="badges">
-                  {% for p in hero.platforms %}
-                    <span class="badge badge-{{ p | lower }}">{{ p }}</span>
-                  {% endfor %}
-                </div>
-                {% if hero.bestPrice %}
-                  <span class="price-badge price-sale">
-                    {{ hero.bestStore }} · ${{ hero.bestPrice }}
-                    {% if hero.deals[0].cut > 0 %}<span class="price-cut">-{{ hero.deals[0].cut }}%</span>{% endif %}
-                  </span>
-                {% else %}
-                  <span class="price-tbd">TBD</span>
-                {% endif %}
-              </div>
-            </div>
-          </article>
-        </a>
-
-        {% for game in rest %}
+        {% for game in group.games %}
           <a href="/games/{{ game.slug }}/" class="card-link">
-            <article class="card medium-card"
+            <article class="card"
                      data-platforms="{{ game.platforms | join(',') }}"
                      data-genres="{{ game.genres | join(',') }}"
                      data-title="{{ game.title | lower }}"
                      data-date="{{ game.releaseDate }}"
-                     data-hype="{{ game.hype }}"
-                     data-price="{{ game.price }}">
+                     data-hype="{{ game.hype }}">
               <div class="cover cover-{{ game.color }}">
                 {% if game.cover %}<img src="{{ game.cover }}" alt="{{ game.title }}" class="cover-img">{% endif %}
                 <div class="hype-mini">{{ game.hype }}</div>
@@ -150,20 +107,11 @@ title: Upcoming Game Releases
               <div class="card-body">
                 <h3>{{ game.title }}</h3>
                 <p class="meta">{{ game.releaseDate | dateFormatShort }}</p>
-                <div class="card-footer">
-                  <div class="badges">
-                    {% for p in game.platforms %}
-                      <span class="badge badge-{{ p | lower }}">{{ p }}</span>
-                    {% endfor %}
-                  </div>
-                  {% if game.bestPrice %}
-                    <span class="price-badge price-sale">
-                      ${{ game.bestPrice }}
-                      {% if game.deals[0].cut > 0 %}<span class="price-cut">-{{ game.deals[0].cut }}%</span>{% endif %}
-                    </span>
-                  {% else %}
-                    <span class="price-tbd">TBD</span>
-                  {% endif %}
+                <p class="genres">{{ game.genres | join(' · ') }}</p>
+                <div class="badges">
+                  {% for p in game.platforms %}
+                    <span class="badge badge-{{ p | lower }}">{{ p }}</span>
+                  {% endfor %}
                 </div>
               </div>
             </article>
@@ -175,7 +123,7 @@ title: Upcoming Game Releases
 </div>
 
 <script>
-  const cards = document.querySelectorAll('.hero-card, .medium-card');
+  const cards = document.querySelectorAll('[data-month-block] .card');
   const monthSections = document.querySelectorAll('[data-month-block]');
   const searchInput = document.getElementById('search');
   const sortSelect = document.getElementById('sort');
@@ -184,13 +132,6 @@ title: Upcoming Game Releases
   const activeFilters = { platform: 'all', genre: 'all' };
   let searchTerm = '';
   let showIndie = false; // hidden by default
-
-  function priceToNumber(p) {
-    if (!p || p === 'TBD') return Infinity;
-    const m = p.match(/[\d,]+/);
-    if (!m) return Infinity;
-    return parseFloat(m[0].replace(',', '.'));
-  }
 
   function applyFilters() {
     let visibleCount = 0;
@@ -229,8 +170,6 @@ title: Upcoming Game Releases
           case 'date-asc':  return new Date(ca.dataset.date) - new Date(cb.dataset.date);
           case 'date-desc': return new Date(cb.dataset.date) - new Date(ca.dataset.date);
           case 'hype':      return parseInt(cb.dataset.hype) - parseInt(ca.dataset.hype);
-          case 'price-asc': return priceToNumber(ca.dataset.price) - priceToNumber(cb.dataset.price);
-          case 'price-desc':return priceToNumber(cb.dataset.price) - priceToNumber(ca.dataset.price);
         }
       });
       links.forEach(l => grid.appendChild(l));

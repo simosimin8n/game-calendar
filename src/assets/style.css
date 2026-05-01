@@ -313,23 +313,15 @@ main { flex: 1; }
 /* ── MONTH GRID ──────────────────────────────── */
 .month-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  align-items: start;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
 }
-/* hero spans 2 cols × 2 rows — magazine layout */
-.hero-link { grid-column: span 2; grid-row: span 2; height: 100%; }
-.hero-card { height: 100%; }
-/* medium cards don't stretch */
-.month-grid > a:not(.hero-link) { height: auto; }
-.month-grid .medium-card { height: auto; }
 
 /* ── CARDS ───────────────────────────────────── */
 .card-link {
   display: block;
   text-decoration: none;
   color: inherit;
-  height: 100%;
 }
 .card {
   background: var(--bg-elevated);
@@ -340,15 +332,13 @@ main { flex: 1; }
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 .card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
   border-color: var(--border-strong);
-  box-shadow: 0 16px 40px -12px rgba(0,0,0,0.75);
+  box-shadow: 0 12px 32px -8px rgba(0,0,0,0.7);
 }
-.hero-card .cover { flex: 1; min-height: 200px; height: auto; }
-.medium-card .cover { height: 140px; }
+.card .cover { height: 200px; }
 
 /* ── COVER ───────────────────────────────────── */
 .cover {
@@ -423,120 +413,33 @@ main { flex: 1; }
 .cover-blue   { background: linear-gradient(145deg, #04254a, #134e96); }
 
 /* ── CARD BODY ───────────────────────────────── */
-.card-body { padding: 0.75rem 0.9rem 0.95rem; flex: 1; }
-.hero-card .card-body { padding: 0.9rem 1.05rem 1.1rem; }
+.card-body { padding: 0.8rem 0.9rem 0.95rem; }
 
 .card-body h3 {
   font-size: 0.88rem;
   font-weight: 700;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.25rem;
   line-height: 1.3;
   letter-spacing: -0.01em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.hero-card .card-body h3 {
-  font-size: 1.05rem;
-  white-space: normal;
-  margin-bottom: 0.3rem;
-}
-.hot-card .card-body h3 {
-  font-size: 0.95rem;
-  white-space: normal;
-}
+.hot-card .card-body h3 { font-size: 0.95rem; white-space: normal; }
 
 .meta {
-  font-size: 0.73rem;
+  font-size: 0.72rem;
   color: var(--text-faint);
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.35rem;
   font-weight: 500;
 }
-.hero-card .meta, .hot-card .meta { font-size: 0.8rem; }
 
 .genres {
-  font-size: 0.71rem;
+  font-size: 0.7rem;
   color: var(--text-muted);
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.5rem;
   font-style: italic;
-  font-weight: 400;
 }
-
-/* ── PRICE ───────────────────────────────────── */
-.card-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.4rem;
-  margin-top: auto;
-  padding-top: 0.4rem;
-}
-.price-badge {
-  font-size: 0.7rem;
-  font-weight: 700;
-  color: #4ade80;
-  white-space: nowrap;
-}
-.price-sale {
-  color: #4ade80;
-}
-.price-cut {
-  font-size: 0.6rem;
-  background: #14532d;
-  color: #86efac;
-  padding: 0.1rem 0.35rem;
-  border-radius: 3px;
-  font-weight: 700;
-}
-.price-tbd {
-  font-size: 0.68rem;
-  color: var(--text-faint);
-}
-
-/* ── DEALS TABLE (game detail) ───────────────── */
-.gd-deals {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  background: var(--bg-elevated);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
-}
-.gd-deal-row {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 0.6rem 0.9rem;
-  border-bottom: 1px solid var(--border);
-  font-size: 0.82rem;
-  text-decoration: none;
-  color: inherit;
-  transition: background 0.12s;
-}
-.gd-deal-row:last-child { border-bottom: none; }
-.gd-deal-row:hover { background: var(--bg-deeper); }
-.gd-deal-store { flex: 1; font-weight: 600; color: var(--text); }
-.gd-deal-cut {
-  font-size: 0.62rem;
-  font-weight: 700;
-  background: #14532d;
-  color: #86efac;
-  padding: 0.12rem 0.4rem;
-  border-radius: 3px;
-}
-.gd-deal-price {
-  font-weight: 700;
-  color: #4ade80;
-  min-width: 52px;
-  text-align: right;
-}
-.gd-deal-regular {
-  font-size: 0.7rem;
-  color: var(--text-faint);
-  text-decoration: line-through;
-}
-.gd-deal-arrow { color: var(--text-faint); font-size: 0.75rem; }
 
 .badges { display: flex; gap: 4px; flex-wrap: wrap; }
 .badge {
@@ -861,26 +764,13 @@ main { flex: 1; }
 .site-footer a:hover { color: var(--text); }
 
 /* ── RESPONSIVE ──────────────────────────────── */
-@media (max-width: 960px) {
-  .month-grid { grid-template-columns: repeat(2, 1fr); }
-  /* hero: full width, single row on tablet */
-  .hero-link { grid-column: 1 / -1; grid-row: span 1; height: auto; }
-  .hero-card { height: auto; }
-  .hero-card .cover { flex: none; height: 200px; }
-}
-
 @media (max-width: 640px) {
   .topbar-inner { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
   .search-sort { width: 100%; }
   .search-sort input { flex: 1; width: auto; min-width: 0; }
   .topbar h1 { font-size: 1.35rem; }
-}
-
-@media (max-width: 560px) {
-  .month-grid { grid-template-columns: 1fr; grid-auto-rows: auto; }
-  .hero-link { grid-column: 1; grid-row: auto; height: auto; }
-  .hero-card .cover { flex: none; min-height: 180px; }
-  .medium-card .cover { height: 110px; }
+  .month-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .card .cover { height: 160px; }
   .cover-hot { height: 160px; }
   .content { padding: 1.5rem 1rem 3rem; }
   .container { padding: 0 1rem; }
