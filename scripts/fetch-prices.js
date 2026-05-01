@@ -45,7 +45,7 @@ async function getToken() {
     return;
   }
   // OAuth token endpoint lives on the main domain, NOT api.isthereanydeal.com
-  const res = await fetch('https://isthereanydeal.com/oauth/token', {
+  const res = await fetch('https://isthereanydeal.com/oauth/token/', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body: new URLSearchParams({
