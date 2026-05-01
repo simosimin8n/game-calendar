@@ -67,8 +67,7 @@ title: Upcoming Game Releases
               </div>
               <div class="card-body">
                 <h3>{{ game.title }}</h3>
-                <p class="meta">{{ game.releaseDate | dateFormat }} · {{ game.price }}</p>
-                <p class="genres">{{ game.genres | join(' · ') }}</p>
+                <p class="meta">{{ game.releaseDate | dateFormatShort }} · {{ game.genres[0] }}</p>
                 <div class="badges">
                   {% for p in game.platforms %}
                     <span class="badge badge-{{ p | lower }}">{{ p }}</span>
@@ -207,10 +206,10 @@ title: Upcoming Game Releases
   // hot slider nav
   const sliderEl = document.getElementById('hot-slider');
   document.getElementById('hot-prev').addEventListener('click', () => {
-    sliderEl.scrollBy({ left: -284, behavior: 'smooth' });
+    sliderEl.scrollBy({ left: -336, behavior: 'smooth' });
   });
   document.getElementById('hot-next').addEventListener('click', () => {
-    sliderEl.scrollBy({ left: 284, behavior: 'smooth' });
+    sliderEl.scrollBy({ left: 336, behavior: 'smooth' });
   });
 
   searchInput.addEventListener('input', e => {

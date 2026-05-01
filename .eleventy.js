@@ -22,6 +22,11 @@ module.exports = function (eleventyConfig) {
     return `${MONTHS[m - 1].slice(0, 3)} ${d}`;
   });
 
+  // "2026-05-14" → "14"
+  eleventyConfig.addFilter("dateDay", (dateStr) => {
+    return parseInt(dateStr.split("-")[2], 10);
+  });
+
   // games[] → [{month: "May 2026", games: [...]}, ...]
   eleventyConfig.addFilter("groupByMonth", (games) => {
     const sorted = [...games].sort((a, b) => a.releaseDate.localeCompare(b.releaseDate));

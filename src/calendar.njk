@@ -1,0 +1,85 @@
+---
+layout: base.njk
+title: Game Release Calendar
+---
+
+<section class="topbar">
+  <div class="container">
+    <div class="topbar-inner">
+      <div>
+        <p class="updated-tag">Updated {{ buildTime }} · {{ games | length }} games</p>
+        <h1>Release Calendar</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cal-month-nav" id="cal-month-nav">
+  <div class="container">
+    <div class="cal-pills">
+      {% for group in games | groupByMonth %}
+        <button class="cal-pill" data-target="cal-{{ loop.index }}">{{ group.month }}</button>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="container content">
+  {% for group in games | groupByMonth %}
+    <section class="cal-section" id="cal-{{ loop.index }}">
+      <div class="month-head">
+        <p class="month-label">{{ group.month }}</p>
+        <p class="month-count">{{ group.games | length }} games</p>
+      </div>
+      <div class="cal-list">
+        {% for game in group.games %}
+          <a href="/games/{{ game.slug }}/" class="cal-row">
+            <span class="cal-day">{{ game.releaseDate | dateDay }}</span>
+            <div class="cal-thumb cover-{{ game.color }}">
+              {% if game.cover %}<img src="{{ game.cover }}" alt="" class="cover-img">{% endif %}
+            </div>
+            <div class="cal-info">
+              <p class="cal-title">{{ game.title }}</p>
+              <div class="cal-badges">
+                {% for p in game.platforms %}
+                  <span class="badge badge-{{ p | lower }}">{{ p }}</span>
+                {% endfor %}
+                {% if game.genres[0] %}
+                  <span class="cal-genre">{{ game.genres[0] }}</span>
+                {% endif %}
+              </div>
+            </div>
+            {% if game.hype > 0 %}
+              <span class="cal-hype">{{ game.hype }}</span>
+            {% endif %}
+          </a>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+</div>
+
+<script>
+  document.querySelectorAll('.cal-pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = document.getElementById(btn.dataset.target);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      document.querySelectorAll('.cal-pill').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+
+  // highlight current month pill on scroll
+  const sections = document.querySelectorAll('.cal-section');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id;
+        document.querySelectorAll('.cal-pill').forEach(b => {
+          b.classList.toggle('active', b.dataset.target === id);
+        });
+      }
+    });
+  }, { rootMargin: '-40% 0px -50% 0px' });
+  sections.forEach(s => observer.observe(s));
+</script>
