@@ -176669,6 +176669,64 @@
     ]
   },
   {
+    "id": 399993,
+    "slug": "havoc-heirs",
+    "title": "Havoc Heirs",
+    "url": "https://www.igdb.com/games/havoc-heirs",
+    "releaseDate": "2026-10-01",
+    "price": "TBD",
+    "platforms": [
+      "PC"
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ],
+    "hype": 0,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobzzi.jpg",
+    "color": "purple",
+    "summary": "A fantasy turn-based RPG in a massive interconnected world. Monsters are everywhere, and you may end up being one of them.",
+    "youtubeId": null,
+    "developers": [
+      "Jay Sugarman"
+    ],
+    "publishers": [
+      "Jay Sugarman"
+    ],
+    "themes": [
+      "Fantasy"
+    ],
+    "gameModes": [
+      "Single player"
+    ],
+    "playerPerspectives": [],
+    "franchises": [],
+    "collections": [],
+    "engine": [
+      "Godot"
+    ],
+    "alternativeNames": [],
+    "releases": [
+      {
+        "date": "Oct 2026",
+        "platform": "PC (Microsoft Windows)",
+        "region": "Worldwide"
+      }
+    ],
+    "websites": [],
+    "ageRatings": [],
+    "languageSupports": [
+      {
+        "language": "English",
+        "audio": false,
+        "subtitles": true,
+        "interface": true
+      }
+    ],
+    "similarGames": []
+  },
+  {
     "id": 389366,
     "slug": "lepidarium",
     "title": "Lepidarium",
@@ -176683,7 +176741,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobi3h.jpg",
-    "color": "purple",
+    "color": "amber",
     "summary": "Relax and collect unique butterflies and moths. Witness the real-time lifecycle from Larva to Pupa to Butterfly. Customize lush greenhouses and discover rare species in this cozy idle game. Let your sanctuary flutter in the background while you work or study!",
     "youtubeId": null,
     "developers": [],
@@ -176952,7 +177010,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coan9f.jpg",
-    "color": "amber",
+    "color": "pink",
     "summary": "A visual novel based on the Itsuwari no Alice gacha game. It will features a new scenario and new CGs, backgrounds, BGM, character facial expressions and pose differences.",
     "youtubeId": null,
     "developers": [
@@ -177105,7 +177163,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobkbv.jpg",
-    "color": "pink",
+    "color": "blue",
     "summary": "F around and find out! A ruthless no F's given dark comedy where you play the president of the United States of America, abuse executive power, crank up the FAFO meter, deal with robot overlords, alien invasions, drain swamps, flip off allies, crush protests, and destroy all that oppose you!",
     "youtubeId": null,
     "developers": [],
@@ -177284,7 +177342,7 @@
     ],
     "hype": 47,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobihx.jpg",
-    "color": "blue",
+    "color": "teal",
     "summary": "STAR WARS: Galactic Racer is a runs-based, high-stakes reinvention of racing born in the lawless Outer Rim. With the Empire gone and the galaxy rebuilding, The Galactic League is created: an underground, unsanctioned circuit where syndicates bankroll chaos and champions are forged.",
     "youtubeId": null,
     "developers": [
@@ -177527,7 +177585,7 @@
     ],
     "hype": 1,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coazck.jpg",
-    "color": "teal",
+    "color": "coral",
     "summary": "True Love For Her (TLFH) is a Yandere game inspired by Yandere Simulator and Life Is Strange that doesn’t compete with the original games. This game involves murder and other methods of killing, so it is not suitable for kids. We are not responsible for any actions taken by kids replicating activities from TLFH in real life.",
     "youtubeId": null,
     "developers": [
@@ -177696,7 +177754,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobz68.jpg",
-    "color": "coral",
+    "color": "purple",
     "summary": "This is a spot-the-difference game with a railway theme. By comparing photos, find the anomalies in the scene to guide the protagonist to the end of the railway. There is no text in the game.",
     "youtubeId": null,
     "developers": [
@@ -177836,7 +177894,7 @@
     ],
     "hype": 2,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co630a.jpg",
-    "color": "purple",
+    "color": "amber",
     "summary": "With stunning graphics, inspired by the 1920's Art Deco period, and a chilling soundtrack, the \"House In The Hollow\" will take you on a journey like no other. A journey filled with mystery, horror, and magic, where you are the master of your own fate.",
     "youtubeId": null,
     "developers": [
@@ -177997,7 +178055,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coal3d.jpg",
-    "color": "amber",
+    "color": "pink",
     "summary": "The city that never sleeps has taken a sinister turn, and the dark tunnels of the MTA have become the epicenter of a horrifying outbreak. As Alisa, you must navigate through a labyrinthine underground world fraught with danger, where unspeakable horrors lurk around every corner.",
     "youtubeId": null,
     "developers": [
@@ -178155,7 +178213,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5dve.jpg",
-    "color": "pink",
+    "color": "blue",
     "summary": "Grimmlins Tale is an action adventure monster tamer where you catch, train, and bond with all fairy tale inspired monsters. Fight alongside your monster friends in deep, real-time strategic combat, and hop on their backs to explore in the whimsical world of Never Everland.",
     "youtubeId": null,
     "developers": [
@@ -178286,7 +178344,7 @@
     "genres": [],
     "hype": 0,
     "cover": null,
-    "color": "blue",
+    "color": "teal",
     "summary": null,
     "youtubeId": null,
     "developers": [],
@@ -178323,7 +178381,7 @@
     "genres": [],
     "hype": 0,
     "cover": null,
-    "color": "teal",
+    "color": "coral",
     "summary": null,
     "youtubeId": null,
     "developers": [],
@@ -178363,7 +178421,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobwhu.jpg",
-    "color": "coral",
+    "color": "purple",
     "summary": "Bold: Networked Newt Action redefines multiplayer stealth action for the modern day, with a return to classic Spies vs Mercs style 2v2 asymmetrical gameplay in a dark Sci-Fi world with anthropomorphic animals. 3rd person stealth is pitted against 1st person action in maps set across exotic locales!",
     "youtubeId": null,
     "developers": [],
@@ -178507,7 +178565,7 @@
     ],
     "hype": 1,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8kem.jpg",
-    "color": "purple",
+    "color": "amber",
     "summary": "Travel through a world surrounded by nature, collect plants and use them to create potions, invent new recipes, sell potions in stores and explore the world.",
     "youtubeId": null,
     "developers": [],
@@ -178635,7 +178693,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8uvc.jpg",
-    "color": "amber",
+    "color": "pink",
     "summary": "Rely on nothing but your own wits. A first-person cryptographic adventure game that play with paper and pen. As you wander through the maze of memories, can you find the key to saving the future?",
     "youtubeId": null,
     "developers": [],
@@ -178799,7 +178857,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaeh6.jpg",
-    "color": "pink",
+    "color": "blue",
     "summary": "Radiant Starlets is a HD2D action platformer in the vein of classic action platformers but you can date all the bosses. Select your boss order and make your way through 8 challenging stages. Try every order and uncover the mysteries of this world.",
     "youtubeId": null,
     "developers": [
@@ -179001,7 +179059,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobrrt.jpg",
-    "color": "blue",
+    "color": "teal",
     "summary": "A top-down shooter rogue-like that sees its player take control of a mechanized weapons platform designed for one thing and one thing only: “Take down the corporation, by any means necessary. . .”",
     "youtubeId": null,
     "developers": [],
@@ -179054,7 +179112,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobz5q.jpg",
-    "color": "teal",
+    "color": "coral",
     "summary": "CRYMELIGHT is a roguelike action game set in the world of the afterlife, where girls confront their sins as they fight to gain their freedom.",
     "youtubeId": null,
     "developers": [
@@ -179145,7 +179203,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobzz5.jpg",
-    "color": "coral",
+    "color": "purple",
     "summary": "A found footage horror game where you need to piece together a timeline in chronological order of a Kaiju incident that occurred.",
     "youtubeId": null,
     "developers": [
@@ -179202,7 +179260,7 @@
     ],
     "hype": 862,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9rwo.jpg",
-    "color": "purple",
+    "color": "amber",
     "summary": "Grand Theft Auto VI heads to the state of Leonida, home to the neon-soaked streets of Vice City and beyond in the biggest, most immersive evolution of the Grand Theft Auto series yet.",
     "youtubeId": null,
     "developers": [
@@ -179382,7 +179440,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coav93.jpg",
-    "color": "amber",
+    "color": "pink",
     "summary": "an independently developed, pixel art, visual novel set in an original universe which follows the silent, player protagonist and three companion characters as they struggle to find a way out of an increasingly puzzling, underground world.",
     "youtubeId": null,
     "developers": [],
@@ -179535,7 +179593,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobbqg.jpg",
-    "color": "pink",
+    "color": "blue",
     "summary": "A deep roguelike colony RPG inside a dead god's corpse. Procedurally generated events, branching narratives, species with unique traits, and meaningful choices that shape your colony's fate. Every playthrough tells a different story of survival and evolution.",
     "youtubeId": null,
     "developers": [
@@ -179837,7 +179895,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobr6o.jpg",
-    "color": "blue",
+    "color": "teal",
     "summary": "Sprite's 15th anniversary game. A share house receives an odd purchase offer one day and, around the same time, a new girl with suspicious behavior moves in.",
     "youtubeId": null,
     "developers": [
@@ -179967,7 +180025,7 @@
     "genres": [],
     "hype": 0,
     "cover": null,
-    "color": "teal",
+    "color": "coral",
     "summary": null,
     "youtubeId": null,
     "developers": [],
@@ -180007,7 +180065,7 @@
     ],
     "hype": 2,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co79mt.jpg",
-    "color": "coral",
+    "color": "purple",
     "summary": "Become medieval lord. Build and defend your town. Train your army. Conquer the enemies.\n\nKnights Province is intended to be an old-school RTS game. Unlike many modern RTS games, which are fast-paced and often are more about tactics, KP planned to emphasize on “strategy” component. Slower-paced gameplay, base-building, resources collection and processing, in-depth strategic choices, variety of resources and units, attention to details.",
     "youtubeId": null,
     "developers": [
@@ -180190,7 +180248,7 @@
     ],
     "hype": 16,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9v9.jpg",
-    "color": "purple",
+    "color": "amber",
     "summary": "Beautiful Light is a PvPvP(vE) tactical first-person extraction shooter where 6 squads of 3 operators are tasked with entering, securing, and extracting an artifact in a hostile, horrific environment. Face other operators and player-controlled anomalies, but beware: mistakes can risk your life and gear.",
     "youtubeId": null,
     "developers": [
@@ -180415,7 +180473,7 @@
     ],
     "hype": 1,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9214.jpg",
-    "color": "amber",
+    "color": "pink",
     "summary": "An upcoming port of Former Dawn for the PC",
     "youtubeId": null,
     "developers": [
@@ -180567,7 +180625,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9uqq.jpg",
-    "color": "pink",
+    "color": "blue",
     "summary": "Step into the mythical world of \"Rise of Fati,\" an epic adventure game where ancient African folklore and legends come to life. Embark on a journey with Fati, a young and brave warrior destined to restore peace and harmony to her homeland. Explore rich landscapes, solve intricate puzzles, and battle formidable foes as you uncover the secrets of your heritage.",
     "youtubeId": null,
     "developers": [
@@ -180708,7 +180766,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa4f2.jpg",
-    "color": "blue",
+    "color": "teal",
     "summary": "An untimely transfer. An unexpected encounter. A chance meeting between two students sets in motion a chain of events that will fundamentally change both of their lives... Or, perhaps, just their love life!",
     "youtubeId": null,
     "developers": [
@@ -180765,7 +180823,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coak75.jpg",
-    "color": "teal",
+    "color": "coral",
     "summary": "\"TIME CONTROL\" bullet hell action. Overcome impossible odds by slowing, stopping and rewinding time!",
     "youtubeId": null,
     "developers": [
@@ -180912,7 +180970,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaxgg.jpg",
-    "color": "coral",
+    "color": "purple",
     "summary": "Legal Beagll: Justice is Argued is a courtroom simulation RPG where every trial is a battle of wits. You’ll take on the role of Harold Beagll, a golden retriever attorney navigating a legal system filled with sharp-tongued rivals, eccentric clients, and unpredictable witnesses.",
     "youtubeId": null,
     "developers": [
@@ -181072,7 +181130,7 @@
     ],
     "hype": 2,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coazbz.jpg",
-    "color": "purple",
+    "color": "amber",
     "summary": "Three loves. One week. Zero chill. Merry Crisis is an intimate, character-driven romance visual novel about love, loss, and belonging—is home what you left behind, or where you’re headed?",
     "youtubeId": null,
     "developers": [],
@@ -181211,7 +181269,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobbqo.jpg",
-    "color": "amber",
+    "color": "pink",
     "summary": "Sweeten the countdown to Christmas with this fabulous advents calendar full of hidden cats for you to find in this cute HOG by Travellin Cats - the original viral hidden cats game creator!",
     "youtubeId": null,
     "developers": [
@@ -181429,7 +181487,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobypl.jpg",
-    "color": "pink",
+    "color": "blue",
     "summary": "A short, quirky 3D action adventure where Oogie sets out to find his legendary chicken, Cluck Cluck, who lays diamond eggs. Explore small open worlds , solve puzzles, battle odd enemies, and uncover hidden secrets in vibrant levels!",
     "youtubeId": null,
     "developers": [],
@@ -181570,7 +181628,7 @@
     ],
     "hype": 0,
     "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob6bz.jpg",
-    "color": "blue",
+    "color": "teal",
     "summary": "With your friends, form a team of paranormal experts to unravel the mysteries of the most terrifying places. Armed with sophisticated gadgets like EMF detectors, infrared cameras, and incantation books, your mission is simple: gather evidence of the beyond and survive chilling encounters.",
     "youtubeId": null,
     "developers": [
@@ -181714,7 +181772,7 @@
     "genres": [],
     "hype": 0,
     "cover": null,
-    "color": "teal",
+    "color": "coral",
     "summary": null,
     "youtubeId": null,
     "developers": [],
@@ -181751,7 +181809,7 @@
     "genres": [],
     "hype": 0,
     "cover": null,
-    "color": "coral",
+    "color": "purple",
     "summary": null,
     "youtubeId": null,
     "developers": [],
