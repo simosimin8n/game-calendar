@@ -8,47 +8,24 @@
  * Phase 2: bulk-fetch current prices for all games with an itadId.
  *
  * Env vars required:
- *   ITAD_KEY      — your IsThereAnyDeal API key
+ *   ITAD_KEY      — your IsThereAnyDeal API key (used directly as Bearer token)
  *   ITAD_COUNTRY  — optional, defaults to US
  */
 
 const fs   = require('fs');
 const path = require('path');
 
-const GAMES_FILE    = path.join(__dirname, '../src/_data/games.json');
-const CLIENT_ID     = process.env.ITAD_CLIENT_ID;
-const CLIENT_SECRET = process.env.ITAD_CLIENT_SECRET;
-const COUNTRY       = process.env.ITAD_COUNTRY || 'US';
+const GAMES_FILE = path.join(__dirname, '../src/_data/games.json');
+const ITAD_KEY   = process.env.ITAD_KEY;
+const COUNTRY    = process.env.ITAD_COUNTRY || 'US';
 
-if (!CLIENT_ID || !CLIENT_SECRET) {
-  console.warn('⚠️  ITAD_CLIENT_ID / ITAD_CLIENT_SECRET not set — skipping price fetch.');
+if (!ITAD_KEY) {
+  console.warn('⚠️  ITAD_KEY not set — skipping price fetch.');
   process.exit(0);
 }
 
-const BASE = 'https://api.isthereanydeal.com';
-let token  = null;
-
-// Get OAuth access token using client credentials
-async function getToken() {
-  const res = await fetch(`${BASE}/oauth/token`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams({
-      grant_type:    'client_credentials',
-      client_id:     CLIENT_ID,
-      client_secret: CLIENT_SECRET,
-      scope:         'read:games read:prices',
-    }),
-  });
-  if (!res.ok) {
-    const text = await res.text();
-    console.warn(`⚠️  ITAD auth failed (${res.status}): ${text} — skipping price fetch.`);
-    process.exit(0);
-  }
-  const data = await res.json();
-  token = data.access_token;
-  console.log('✓ ITAD token obtained.');
-}
+const BASE  = 'https://api.isthereanydeal.com';
+const token = ITAD_KEY; // API key used directly as Bearer token
 
 async function get(endpoint, params = {}) {
   const url = new URL(BASE + endpoint);
@@ -57,7 +34,7 @@ async function get(endpoint, params = {}) {
     headers: { Authorization: `Bearer ${token}` },
   });
   if (res.status === 401 || res.status === 403) {
-    console.warn('⚠️  ITAD token rejected — skipping price fetch.');
+    console.warn('⚠️  ITAD_KEY rejected (401/403) — skipping price fetch.');
     process.exit(0);
   }
   if (!res.ok) throw new Error(`GET ${endpoint}: ${res.status} ${await res.text()}`);
@@ -148,7 +125,7 @@ async function fetchPrices(games) {
 }
 
 async function main() {
-  await getToken();
+  console.log('✓ Using ITAD_KEY as Bearer token.');
   const games = JSON.parse(fs.readFileSync(GAMES_FILE, 'utf-8'));
   await resolveIds(games);
   await fetchPrices(games);
