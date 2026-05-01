@@ -769,9 +769,16 @@ main { flex: 1; }
   .search-sort { width: 100%; }
   .search-sort input { flex: 1; width: auto; min-width: 0; }
   .topbar h1 { font-size: 1.35rem; }
-  .month-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
-  .card .cover { height: 160px; }
   .cover-hot { height: 160px; }
   .content { padding: 1.5rem 1rem 3rem; }
   .container { padding: 0 1rem; }
+
+  /* horizontal list cards on mobile */
+  .month-grid { grid-template-columns: 1fr; gap: 8px; }
+  .card { flex-direction: row; height: 90px; }
+  .card .cover { width: 68px; height: 90px; flex-shrink: 0; border-radius: 0; }
+  .card-body { padding: 0.6rem 0.75rem; display: flex; flex-direction: column; justify-content: center; min-width: 0; }
+  .card-body h3 { font-size: 0.84rem; margin-bottom: 0.15rem; }
+  .card-body .genres { display: none; }
+  .card-body .meta { margin-bottom: 0.2rem; font-size: 0.68rem; }
 }
