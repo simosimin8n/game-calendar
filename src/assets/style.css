@@ -14,7 +14,8 @@
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
+body { overflow-x: hidden; }
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
@@ -167,17 +168,21 @@ main { flex: 1; }
   border-style: solid;
   opacity: 1;
 }
+/* genre more/less */
+.genre-extra { display: none; }
+.filters.genres-open .genre-extra { display: inline-block; }
+.genre-more-btn { opacity: 0.6; letter-spacing: 0.03em; }
 
 /* ── HOT SECTION ─────────────────────────────── */
 .hot-section {
-  padding: 2rem 0 2.5rem;
+  padding: 1.25rem 0 1.5rem;
   border-bottom: 1px solid var(--border);
 }
 .hot-head {
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.9rem;
 }
 .hot-tag {
   background: linear-gradient(135deg, #991b1b, #ef4444);
@@ -224,7 +229,7 @@ main { flex: 1; }
 }
 .hot-slider::-webkit-scrollbar { display: none; }
 .hot-slide {
-  flex: 0 0 260px;
+  flex: 0 0 300px;
   scroll-snap-align: start;
   height: auto;
 }
@@ -246,7 +251,7 @@ main { flex: 1; }
   z-index: 3;
 }
 
-.cover-hot { height: 180px; }
+.cover-hot { height: 120px; }
 .rank-badge {
   position: absolute;
   top: 10px;

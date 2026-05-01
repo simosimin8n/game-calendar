@@ -33,9 +33,10 @@ title: Upcoming Game Releases
         <button class="filter-btn active" data-value="all">All genres</button>
         {% for genre in games | allGenres %}
           {% if genre !== 'Indie' %}
-            <button class="filter-btn" data-value="{{ genre }}">{{ genre }}</button>
+            <button class="filter-btn{% if loop.index > 4 %} genre-extra{% endif %}" data-value="{{ genre }}">{{ genre }}</button>
           {% endif %}
         {% endfor %}
+        <button class="filter-btn genre-more-btn" id="genre-more">+more</button>
       </div>
       <div class="filter-divider"></div>
       <button class="filter-btn indie-toggle" id="indie-toggle">+ Indie</button>
@@ -187,6 +188,12 @@ title: Upcoming Game Releases
         applyFilters();
       });
     });
+  });
+
+  // genre more/less toggle
+  document.getElementById('genre-more').addEventListener('click', function() {
+    const open = document.querySelector('.filters').classList.toggle('genres-open');
+    this.textContent = open ? '–less' : '+more';
   });
 
   // indie toggle
