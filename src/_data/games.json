@@ -170080,16 +170080,6 @@
         "rating": 4.7
       },
       {
-        "name": "Sky: Children of the Light",
-        "genres": [
-          "Puzzle",
-          "Role-playing (RPG)",
-          "Adventure",
-          "Indie"
-        ],
-        "rating": 7
-      },
-      {
         "name": "Citadel: Forged With Fire",
         "genres": [
           "Shooter",
@@ -170106,6 +170096,15 @@
           "Adventure"
         ],
         "rating": null
+      },
+      {
+        "name": "Omensight",
+        "genres": [
+          "Role-playing (RPG)",
+          "Adventure",
+          "Indie"
+        ],
+        "rating": 8
       }
     ]
   },
