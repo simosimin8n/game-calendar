@@ -465,10 +465,10 @@ main { flex: 1; }
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
-.badge-pc     { background: #0d1d2e; color: #66c0f4; } /* Steam blue */
-.badge-ps5    { background: #051e4a; color: #4d9de0; } /* PlayStation blue */
-.badge-xbox   { background: #0a2b0a; color: #5cbf4e; } /* Xbox green */
-.badge-switch { background: #3a0d0d; color: #e05555; } /* Nintendo red */
+.badge-pc     { background: #1b2838; color: #fff; } /* Steam */
+.badge-ps5    { background: #003791; color: #fff; } /* PlayStation blue */
+.badge-xbox   { background: #107c10; color: #fff; } /* Xbox green */
+.badge-switch { background: #e4000f; color: #fff; } /* Nintendo red */
 
 /* ── GAME DETAIL ─────────────────────────────── */
 .gd-hero {
