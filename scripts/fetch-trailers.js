@@ -38,8 +38,10 @@ async function getToken() {
 }
 
 async function fetchTrailers(games, token) {
-  // Only query games that don't have a youtubeId yet (null = no trailer on IGDB, undefined = not fetched yet)
-  const missing = games.filter(g => g.youtubeId === undefined);
+  // Query games that haven't been checked yet (undefined) OR that were set to null by n8n
+  // without videos.video_id in its IGDB query. Once this script runs and sets a real ID
+  // (or confirms null from IGDB directly), the field stays cached.
+  const missing = games.filter(g => g.youtubeId == null); // catches both null and undefined
   if (!missing.length) {
     console.log('All YouTube IDs already resolved, skipping.');
     return;

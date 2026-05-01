@@ -105,10 +105,15 @@ async function resolveIds(games) {
 
   console.log(`Resolving ITAD IDs for ${missing.length} games…`);
   let found = 0;
+  let debugged = false;
   for (const game of missing) {
     try {
       const data = await get('/games/search/v1', { title: game.title, results: 3 });
-      const results = data?.results ?? [];
+      if (!debugged) {
+        console.log(`  [debug] first response for "${game.title}":`, JSON.stringify(data).slice(0, 200));
+        debugged = true;
+      }
+      const results = Array.isArray(data) ? data : (data?.results ?? []);
       const match = results.find(r =>
         r.title.toLowerCase() === game.title.toLowerCase()
       ) || results[0];
