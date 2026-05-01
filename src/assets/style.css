@@ -254,7 +254,7 @@ main { flex: 1; }
 /* hot cards are horizontal rows */
 .hot-card { flex-direction: row; height: 88px; }
 .cover-hot { width: 66px; height: 88px; flex-shrink: 0; padding: 0; }
-.hot-card .card-body { padding: 0.65rem 0.85rem; display: flex; flex-direction: column; justify-content: center; min-width: 0; }
+.hot-card .card-body { flex: 1; padding: 0.65rem 0.85rem; display: flex; flex-direction: column; justify-content: center; min-width: 0; overflow: hidden; }
 .hot-card .card-body h3 { font-size: 0.88rem; white-space: nowrap; margin-bottom: 0.2rem; }
 .hot-month-chip { display: none; }
 .rank-badge {
