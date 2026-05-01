@@ -135,6 +135,7 @@ async function fetchPrices(games) {
     process.stdout.write(`  Batch ${Math.floor(i / BATCH) + 1}/${Math.ceil(withId.length / BATCH)}… `);
     try {
       const data = await post('/games/prices/v3', batch.map(g => g.itadId), { country: COUNTRY });
+      if (i === 0) console.log('  [debug] prices sample:', JSON.stringify(data).slice(0, 300));
       for (const game of batch) {
         const entry = data[game.itadId];
         if (!entry?.list?.length) {
